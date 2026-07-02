@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 2 — Describing One Number | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 1</span>
+  </div>
+  <h1 class="unit-page-title">Unit 2: Describing One Number</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 1 — Data Description</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>IELTS Task 1 asks you to describe data — charts, tables, and graphs. The first skill is describing <strong>one number</strong> clearly and accurately.</p>
+    <p>Useful patterns for describing data:</p>
+    <div class="pattern-box">The number of... &nbsp;|&nbsp; There were... &nbsp;|&nbsp; In [year],...</div>
+    <p>Always include the year, the number, and what is being counted.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">These examples use a different topic (public transport) so you can see the pattern — then apply it to the new data below.</p>
+    <ul class="model-sentence-list">
+      <li>In 2023, 55 people liked public transport.</li>
+      <li>There were 55 people who liked public transport in 2023.</li>
+      <li>The number of people who liked public transport was 55 in 2023.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the data in the table below (not the model sentences above):</p>
+    <div class="pattern-box">In ___ (year), ___ (number) students liked ___ (topic).</div>
+    <p class="hint">Now write the full sentence yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="data-box">
+      <p class="data-box-title">Data: Students Who Liked Online Classes</p>
+      <table class="data-table">
+        <tr><th>Year</th><th>Number of Students</th></tr>
+        <tr><td>2024</td><td>70</td></tr>
+      </table>
+    </div>
+    <p class="hint">Look at the table. Now write your own sentence — don't copy the lesson examples.</p>
+    <textarea id="writingBox" placeholder="Describe the number in one sentence..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I included the year 2024.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I included the number 70.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I mentioned "students" and "online classes".</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit2-task1-number",
+    minWords: 6,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "the year \"2024\"", words: ["2024"] },
+      { label: "the number \"70\"", words: ["70"] },
+      { label: "\"students\"", words: ["student", "students"] },
+      { label: "\"online classes\"", words: ["online class", "online classes"] }
+    ],
+    modelAnswer: "In 2024, 70 students liked online classes.",
+    skillConnection: "Task 1: describing a single data point accurately is the first step toward full Task 1 reports.",
+    nextChallenge: "Try rewriting the sentence starting with \"The number of...\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

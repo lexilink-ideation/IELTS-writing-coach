@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 1 — Opinion Sentence | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 1: Writing One Opinion Sentence</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Opinion Writing</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>In IELTS Task 2, you almost always need to give your <strong>opinion</strong>. The easiest way to start is with one of these phrases:</p>
+    <div class="pattern-box">I think... &nbsp;|&nbsp; I believe... &nbsp;|&nbsp; In my opinion...</div>
+    <p>After your opinion, add the topic. A complete opinion sentence needs: a capital letter, an opinion phrase, the topic, and a full stop.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <ul class="model-sentence-list">
+      <li>I think students should use AI for homework.</li>
+      <li>I believe online classes are useful for students.</li>
+      <li>In my opinion, public transport is convenient for cities.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps to build your own opinion sentence:</p>
+    <div class="pattern-box">___ (I think / I believe / In my opinion) ___ students should use AI for ___ (homework).</div>
+    <p class="hint">Now write the full sentence in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Do you think students should use AI for homework?</div>
+    <textarea id="writingBox" placeholder="Write your opinion sentence here..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "I think" / "I believe" / "In my opinion".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence answers the question about AI and homework.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence has at least 7 words.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit1-task2-opinion",
+    minWords: 7,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    opinionPhrases: ["i think", "i believe", "in my opinion"],
+    keywordGroups: [
+      { label: "the word \"AI\"", words: ["ai"] },
+      { label: "\"students\" or \"homework\"", words: ["student", "students", "homework"] }
+    ],
+    linkingWords: ["because", "and", "but", "also"],
+    modelAnswer: "I think students should use AI for homework because it is helpful.",
+    skillConnection: "Task 2: giving a clear opinion with a reason is the foundation of every IELTS Task 2 essay.",
+    nextChallenge: "Try adding one reason using \"because\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IELTS Writing Coach — Lexilink Ideation IELTS Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <span class="top-bar-link">IELTS WRITING COACH</span>
+</div>
+
+<header class="hero">
+  <span class="hero-eyebrow">A1 &rarr; C2 · Step-by-Step Writing Training</span>
+  <h1>Interactive Writing Practice</h1>
+  <p class="hero-tagline">Build real IELTS Writing skills one small step at a time — opinion sentences, data description, comparison, and beyond.</p>
+</header>
+
+<div class="stats-bar" id="statsBar"></div>
+
+<main class="container">
+  <nav class="level-tabs" id="levelTabs" aria-label="CEFR level"></nav>
+  <h2 id="levelHeading">A1 Units</h2>
+  <div class="unit-grid" id="unitCards"></div>
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="data/units.js"></script>
+<script src="js/app.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => IELTSDashboard.init());
+</script>
+</body>
+</html>
