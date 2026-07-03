@@ -55,25 +55,77 @@ const IELTS_UNITS = [
     skill: "Trend Description",
     description: "Describe a simple trend using \"went up\", \"went down\", or \"stayed the same\".",
     href: "units/a1-unit4-task1-trend.html"
-  }
+  },
+  {
+    id: "a1-unit5-task2-reason",
+    level: "A1",
+    unitNumber: 5,
+    title: "Opinion with One Reason",
+    taskType: "Task 2",
+    skill: "Reason Expansion",
+    description: "Expand a basic opinion sentence into opinion + reason using \"because\".",
+    href: "units/a1-unit5-task2-reason.html"
+  },
 
   // ---------------------------- A2 ----------------------------
-  // Example of the next unit to add:
-  // {
-  //   id: "a2-unit1-task2-opinion-reason",
-  //   level: "A2",
-  //   unitNumber: 1,
-  //   title: "Opinion + Reason",
-  //   taskType: "Task 2",
-  //   skill: "Paragraph Building",
-  //   description: "Build a two-sentence opinion paragraph with a supporting reason.",
-  //   href: "units/a2-unit1-task2-opinion-reason.html"
-  // },
+  {
+    id: "a2-unit1-task2-opinion-reason",
+    level: "A2",
+    unitNumber: 1,
+    title: "Opinion + Reason",
+    taskType: "Task 2",
+    skill: "Paragraph Building",
+    description: "Build a two-sentence opinion paragraph with a supporting reason.",
+    href: "units/a2-unit1-task2-opinion-reason.html"
+  },
 
   // ---------------------------- B1 ----------------------------
+  {
+    id: "b1-unit1-task2-opinion-paragraph",
+    level: "B1",
+    unitNumber: 1,
+    title: "Full Opinion Paragraph",
+    taskType: "Task 2",
+    skill: "Opinion + Two Reasons + Example",
+    description: "Build a 4-5 sentence paragraph: opinion, two sequenced reasons, and one example.",
+    href: "units/b1-unit1-task2-opinion-paragraph.html"
+  },
+
   // ---------------------------- B2 ----------------------------
+  {
+    id: "b2-unit1-task2-advantages-disadvantages",
+    level: "B2",
+    unitNumber: 1,
+    title: "Advantages and Disadvantages",
+    taskType: "Task 2",
+    skill: "Balanced Argument",
+    description: "Write one short paragraph per side of an issue, plus a brief closing opinion.",
+    href: "units/b2-unit1-task2-advantages-disadvantages.html"
+  },
+
   // ---------------------------- C1 ----------------------------
+  {
+    id: "c1-unit1-task2-counter-point",
+    level: "C1",
+    unitNumber: 1,
+    title: "Argument with Counter-Point",
+    taskType: "Task 2",
+    skill: "Nuanced Argumentation",
+    description: "Acknowledge an opposing view before rebutting it and stating the consequence.",
+    href: "units/c1-unit1-task2-counter-point.html"
+  },
+
   // ---------------------------- C2 ----------------------------
+  {
+    id: "c2-unit1-task2-hedging-nuance",
+    level: "C2",
+    unitNumber: 1,
+    title: "Sophisticated Argumentative Essay",
+    taskType: "Task 2",
+    skill: "Hedging and Nuance",
+    description: "Use hedging language and a balanced, qualified conclusion in a nuanced argumentative response.",
+    href: "units/c2-unit1-task2-hedging-nuance.html"
+  }
 ];
 
 // Fixed tab order — every level shows up even with 0 units.

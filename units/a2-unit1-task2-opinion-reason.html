@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A2 Unit 1 — Opinion + Reason | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A2</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 1: Opinion + Reason</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Paragraph Building</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>At A2 level, a good IELTS Task 2 answer is usually two sentences: an <strong>opinion</strong> sentence with "because", followed by one extra sentence that supports it.</p>
+    <div class="pattern-box">Opinion + because + reason. Then one more sentence to support the reason.</div>
+    <p>The second sentence should add a small extra detail — it does not need a new linking word, just a related idea.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">These examples use a different topic (the environment) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>I think protecting the environment is important because pollution harms our health. Dirty air can make people sick, especially children.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model sentences above):</p>
+    <div class="pattern-box">___ (I think / I believe) students should / should not use AI for homework because ___. ___ (add one more sentence to support your reason).</div>
+    <p class="hint">Now write your two sentences yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Do you think students should use AI for homework?</div>
+    <textarea id="writingBox" placeholder="Write your opinion, reason, and one supporting sentence here..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My first sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>Every sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "I think" / "I believe" / "In my opinion".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "because" to give a reason.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote a second sentence that supports my reason.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My answer is about AI and homework.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a2-unit1-task2-opinion-reason",
+    minWords: 15,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    opinionPhrases: ["i think", "i believe", "in my opinion"],
+    keywordGroups: [
+      { label: "the word \"because\" for your reason", words: ["because"] },
+      { label: "\"AI\" or \"homework\"", words: ["ai", "homework"] }
+    ],
+    linkingWords: ["and", "also", "too", "but"],
+    modelAnswer: "I think students should use AI for homework because it helps them understand difficult topics. It also saves time when they are stuck on a question.",
+    skillConnection: "Task 2: connecting an opinion to a reason with \"because\", then adding a supporting sentence, is the core building block of a full argument paragraph.",
+    nextChallenge: "Try adding a third sentence introduced with \"For example\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

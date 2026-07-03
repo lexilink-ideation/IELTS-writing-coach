@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B1 Unit 1 — Full Opinion Paragraph | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">B1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 1: Full Opinion Paragraph</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Opinion + Two Reasons + Example</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>A full IELTS Task 2 paragraph at this level needs more than one reason. Use sequencing words to organise two reasons clearly, then close with a concrete example.</p>
+    <div class="pattern-box">Opinion. Firstly, reason one. Secondly, reason two because ___. For example, ___.</div>
+    <p>"Firstly" and "secondly" help the examiner follow your structure. "For example" shows you can support an idea with a specific detail, not just a general claim.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (studying abroad) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>In my opinion, studying abroad is beneficial for students. Firstly, it helps them learn about different cultures. Secondly, it improves their independence because they must solve problems on their own. For example, many students learn to manage money and schedules without their parents' help.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model paragraph above):</p>
+    <div class="pattern-box">___ (In my opinion / I believe) automation is / is not good for workers. Firstly, ___. Secondly, ___ because ___. For example, ___.</div>
+    <p class="hint">Now write your full paragraph yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Do you think automation (machines and AI doing jobs) is good for workers?</div>
+    <textarea id="writingBox" placeholder="Write your opinion, two reasons, and one example here..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My paragraph starts with a clear opinion.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "Firstly" and/or "Secondly" to sequence my reasons.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "because" to explain at least one reason.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "For example" to give a concrete example.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My paragraph is about automation and jobs.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote at least 35 words.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "b1-unit1-task2-opinion-paragraph",
+    minWords: 35,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    opinionPhrases: ["i think", "i believe", "in my opinion"],
+    keywordGroups: [
+      { label: "a sequencing word (\"firstly\" or \"secondly\")", words: ["firstly", "secondly", "first", "second"] },
+      { label: "a reason using \"because\"", words: ["because"] },
+      { label: "\"for example\" to give an example", words: ["for example", "for instance"] },
+      { label: "\"automation\", \"machines\", or \"jobs\"", words: ["automation", "machine", "machines", "jobs", "job", "workers"] }
+    ],
+    linkingWords: ["also", "however", "although"],
+    modelAnswer: "In my opinion, automation is helpful for workers. Firstly, it removes dangerous or repetitive tasks from their daily work. Secondly, it can create new kinds of jobs because companies need people to manage new technology. For example, factories now employ engineers to maintain robots.",
+    skillConnection: "Task 2: a full opinion paragraph with two sequenced reasons and a concrete example is the standard structure examiners expect at Band 5-6.",
+    nextChallenge: "Try adding one sentence that gives a brief counter-argument before your conclusion."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

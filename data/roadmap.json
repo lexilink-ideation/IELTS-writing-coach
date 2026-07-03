@@ -1,21 +1,17 @@
 {
-  "_comment": "Curriculum roadmap for the daily 'new unit' scheduled task. 'rotation' + 'nextLevelIndex' track whose turn it is next. Each level's 'queue' is an ordered list of not-yet-built units — the task pops the first item off the queue for whichever level's turn it is, builds it, then removes it from the queue and bumps nextUnitNumber. If a level's queue runs empty, skip it (advance rotation again) until a level with a queued item is found. If ALL queues are empty, stop and leave a note in _needsMoreRoadmap for a human to review.",
-  "rotation": ["A1", "A2", "B1", "B2", "C1", "C2"],
-  "nextLevelIndex": 1,
+  "_comment": "Curriculum roadmap for the daily 'new unit' scheduled task. Every run, the task builds ONE new unit for EACH of the 6 CEFR levels (not a rotation anymore). Each level's 'queue' is an ordered list of not-yet-built units — the task pops the first item off each level's queue, builds it, removes it from that queue, and bumps that level's nextUnitNumber. If a level's queue is empty on a given day, that level is skipped for the day (noted in the run summary) while the other levels still get built. If ALL 6 queues are empty, set _needsMoreRoadmap to true and stop.",
   "_needsMoreRoadmap": false,
   "levels": {
     "A1": {
-      "nextUnitNumber": 5,
+      "nextUnitNumber": 6,
       "queue": [
-        { "title": "Opinion with One Reason", "taskType": "Task 2", "skill": "Reason Expansion", "topic": "children and screen time", "notes": "Teach using 'because' to expand a basic opinion sentence into opinion + reason." },
         { "title": "Describing Three Data Points", "taskType": "Task 1", "skill": "Multiple Data Description", "topic": "books vs. videos preference survey", "notes": "A 3-row data table; student writes one sentence per row or a short 3-sentence description." },
         { "title": "Two-Sentence Opinion Paragraph", "taskType": "Task 2", "skill": "Paragraph Building (Intro)", "topic": "studying abroad", "notes": "Opinion sentence + one supporting sentence using 'because' or 'and'." }
       ]
     },
     "A2": {
-      "nextUnitNumber": 1,
+      "nextUnitNumber": 2,
       "queue": [
-        { "title": "Opinion + Reason", "taskType": "Task 2", "skill": "Paragraph Building", "topic": "AI and homework", "notes": "Opinion + because + one supporting idea, roughly 2 sentences." },
         { "title": "Opinion + Reason + Example", "taskType": "Task 2", "skill": "Idea Development", "topic": "online classes", "notes": "Add 'for example' to support the reason." },
         { "title": "Describing a Trend Over Three Points", "taskType": "Task 1", "skill": "Trend Description with Linking Words", "topic": "public transport usage 2018-2022 (3 data points)", "notes": "Use 'then' and 'after that' to link three time points." },
         { "title": "Comparing Three Items", "taskType": "Task 1", "skill": "Multi-item Comparison", "topic": "cities and countryside population", "notes": "Use 'the highest' / 'the lowest' across 3 items." },
@@ -24,9 +20,8 @@
       ]
     },
     "B1": {
-      "nextUnitNumber": 1,
+      "nextUnitNumber": 2,
       "queue": [
-        { "title": "Full Opinion Paragraph", "taskType": "Task 2", "skill": "Opinion + Two Reasons + Example", "topic": "work and automation", "notes": "Build a 4-5 sentence paragraph: opinion, two reasons, one example." },
         { "title": "Chart Overview Sentence", "taskType": "Task 1", "skill": "Overview Writing", "topic": "online classes popularity chart", "notes": "Identify and state the single biggest trend in one sentence." },
         { "title": "Both-Views Discussion (Intro)", "taskType": "Task 2", "skill": "Balanced Viewpoint Intro", "topic": "children and screen time", "notes": "State both sides briefly before giving a personal opinion." },
         { "title": "Comparing Two Categories Over Time", "taskType": "Task 1", "skill": "Two-Category Comparison", "topic": "books vs. videos preference by year", "notes": "Use a simple 2x2 data table (2 categories x 2 years)." },
@@ -35,9 +30,8 @@
       ]
     },
     "B2": {
-      "nextUnitNumber": 1,
+      "nextUnitNumber": 2,
       "queue": [
-        { "title": "Advantages and Disadvantages", "taskType": "Task 2", "skill": "Balanced Argument", "topic": "studying abroad", "notes": "One short paragraph per side, plus a brief closing opinion." },
         { "title": "Full Bar Chart Overview", "taskType": "Task 1", "skill": "Overview + Supporting Detail", "topic": "public transport usage by city", "notes": "Overview sentence, then two supporting detail sentences." },
         { "title": "Problem-Solution Essay Intro", "taskType": "Task 2", "skill": "Problem-Solution Structure", "topic": "environment and pollution", "notes": "State a problem, then propose one clear solution." },
         { "title": "Comparing Multiple Data Sets", "taskType": "Task 1", "skill": "Varied Comparative Vocabulary", "topic": "online vs. in-person classes over 3 years", "notes": "Push students to avoid repeating 'more than' — offer synonyms." },
@@ -46,9 +40,8 @@
       ]
     },
     "C1": {
-      "nextUnitNumber": 1,
+      "nextUnitNumber": 2,
       "queue": [
-        { "title": "Argument with Counter-Point", "taskType": "Task 2", "skill": "Nuanced Argumentation", "topic": "work and automation", "notes": "Acknowledge an opposing view before rebutting it." },
         { "title": "Multi-Chart Comparison", "taskType": "Task 1", "skill": "Data Synthesis", "topic": "online classes: two charts (2020 and 2024)", "notes": "Synthesize two data sources into one coherent report." },
         { "title": "Abstract Topic Discussion", "taskType": "Task 2", "skill": "Abstract Reasoning", "topic": "automation and the future of work", "notes": "Discuss an abstract idea while grounding it in concrete examples." },
         { "title": "Academic Process Diagram", "taskType": "Task 1", "skill": "Process Description (Academic)", "topic": "how an online course is developed", "notes": "Describe a multi-step academic/institutional process." },
@@ -57,9 +50,8 @@
       ]
     },
     "C2": {
-      "nextUnitNumber": 1,
+      "nextUnitNumber": 2,
       "queue": [
-        { "title": "Sophisticated Argumentative Essay", "taskType": "Task 2", "skill": "Hedging and Nuance", "topic": "AI and homework", "notes": "Use hedging language such as 'it could be argued that'." },
         { "title": "Complex Data Synthesis", "taskType": "Task 1", "skill": "Multi-Source Synthesis", "topic": "public transport usage across three cities", "notes": "Synthesize three data sources with precise, varied comparison language." },
         { "title": "Philosophical IELTS Topic Discussion", "taskType": "Task 2", "skill": "Critical Discussion", "topic": "technology and human connection", "notes": "Explore a nuanced, less concrete IELTS-aligned topic critically." },
         { "title": "Full Academic Report Structure", "taskType": "Task 1", "skill": "Complete Report Structure", "topic": "environment survey full report", "notes": "Overview + body paragraphs + comparison combined into one structured report." },
