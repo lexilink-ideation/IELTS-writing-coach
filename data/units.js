@@ -45,6 +45,16 @@ const IELTS_UNITS = [
     skill: "Comparison",
     description: "Compare two numbers using language like \"increased from...to...\".",
     href: "units/a1-unit3-task1-compare.html"
+  },
+  {
+    id: "a1-unit4-task1-trend",
+    level: "A1",
+    unitNumber: 4,
+    title: "Describing a Simple Trend",
+    taskType: "Task 1",
+    skill: "Trend Description",
+    description: "Describe a simple trend using \"went up\", \"went down\", or \"stayed the same\".",
+    href: "units/a1-unit4-task1-trend.html"
   }
 
   // ---------------------------- A2 ----------------------------
