@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 6 — Describing Three Data Points | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 1</span>
+  </div>
+  <h1 class="unit-page-title">Unit 6: Describing Three Data Points</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 1 — Multiple Data Description</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>Sometimes a table has more than one row. You can describe each row with its own simple sentence — just repeat the pattern you already know for every number.</p>
+    <div class="pattern-box">___ (number) students preferred ___ (category).</div>
+    <p>Write one short sentence for each row, in the same order as the table.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">These examples use a different topic (transport to school) so you can see the pattern — then apply it to the new data below.</p>
+    <ul class="model-sentence-list">
+      <li>30 students preferred the bus.</li>
+      <li>45 students preferred walking.</li>
+      <li>10 students preferred the car.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the data in the table below (not the model sentences above):</p>
+    <div class="pattern-box">___ (number) students preferred books. ___ (number) students preferred videos. ___ (number) students preferred both.</div>
+    <p class="hint">Now write all three sentences yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="data-box">
+      <p class="data-box-title">Data: Students' Preferred Study Format</p>
+      <table class="data-table">
+        <tr><th>Format</th><th>Number of Students</th></tr>
+        <tr><td>Books</td><td>25</td></tr>
+        <tr><td>Videos</td><td>60</td></tr>
+        <tr><td>Both</td><td>15</td></tr>
+      </table>
+    </div>
+    <p class="hint">Look at the table. Now write three short sentences, one for each row — don't copy the lesson examples.</p>
+    <textarea id="writingBox" placeholder="Write one sentence for each row of the table..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My first sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>Every sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I included all three numbers: 25, 60, and 15.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I mentioned "books" and "videos".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote one sentence for each row of the table.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit6-task1-three-points",
+    minWords: 15,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "the number \"25\"", words: ["25"] },
+      { label: "the number \"60\"", words: ["60"] },
+      { label: "the number \"15\"", words: ["15"] },
+      { label: "\"books\" and \"videos\"", words: ["books", "videos"] }
+    ],
+    modelAnswer: "25 students preferred books, 60 students preferred videos, and 15 students preferred both books and videos.",
+    skillConnection: "Task 1: describing three individual data points is the foundation for writing full data-based paragraphs with multiple categories.",
+    nextChallenge: "Try adding a fourth sentence comparing the highest and lowest numbers."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

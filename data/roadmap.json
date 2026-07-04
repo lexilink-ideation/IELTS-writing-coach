@@ -3,16 +3,14 @@
   "_needsMoreRoadmap": false,
   "levels": {
     "A1": {
-      "nextUnitNumber": 6,
+      "nextUnitNumber": 7,
       "queue": [
-        { "title": "Describing Three Data Points", "taskType": "Task 1", "skill": "Multiple Data Description", "topic": "books vs. videos preference survey", "notes": "A 3-row data table; student writes one sentence per row or a short 3-sentence description." },
         { "title": "Two-Sentence Opinion Paragraph", "taskType": "Task 2", "skill": "Paragraph Building (Intro)", "topic": "studying abroad", "notes": "Opinion sentence + one supporting sentence using 'because' or 'and'." }
       ]
     },
     "A2": {
-      "nextUnitNumber": 2,
+      "nextUnitNumber": 3,
       "queue": [
-        { "title": "Opinion + Reason + Example", "taskType": "Task 2", "skill": "Idea Development", "topic": "online classes", "notes": "Add 'for example' to support the reason." },
         { "title": "Describing a Trend Over Three Points", "taskType": "Task 1", "skill": "Trend Description with Linking Words", "topic": "public transport usage 2018-2022 (3 data points)", "notes": "Use 'then' and 'after that' to link three time points." },
         { "title": "Comparing Three Items", "taskType": "Task 1", "skill": "Multi-item Comparison", "topic": "cities and countryside population", "notes": "Use 'the highest' / 'the lowest' across 3 items." },
         { "title": "Two Reasons for an Opinion", "taskType": "Task 2", "skill": "Idea Sequencing", "topic": "old people and technology", "notes": "Use 'firstly' and 'secondly' to sequence two reasons." },
@@ -20,9 +18,8 @@
       ]
     },
     "B1": {
-      "nextUnitNumber": 2,
+      "nextUnitNumber": 3,
       "queue": [
-        { "title": "Chart Overview Sentence", "taskType": "Task 1", "skill": "Overview Writing", "topic": "online classes popularity chart", "notes": "Identify and state the single biggest trend in one sentence." },
         { "title": "Both-Views Discussion (Intro)", "taskType": "Task 2", "skill": "Balanced Viewpoint Intro", "topic": "children and screen time", "notes": "State both sides briefly before giving a personal opinion." },
         { "title": "Comparing Two Categories Over Time", "taskType": "Task 1", "skill": "Two-Category Comparison", "topic": "books vs. videos preference by year", "notes": "Use a simple 2x2 data table (2 categories x 2 years)." },
         { "title": "Cause and Effect Structure", "taskType": "Task 2", "skill": "Cause-Effect Writing", "topic": "technology and the environment", "notes": "Use 'as a result' / 'this means that'." },
@@ -30,9 +27,8 @@
       ]
     },
     "B2": {
-      "nextUnitNumber": 2,
+      "nextUnitNumber": 3,
       "queue": [
-        { "title": "Full Bar Chart Overview", "taskType": "Task 1", "skill": "Overview + Supporting Detail", "topic": "public transport usage by city", "notes": "Overview sentence, then two supporting detail sentences." },
         { "title": "Problem-Solution Essay Intro", "taskType": "Task 2", "skill": "Problem-Solution Structure", "topic": "environment and pollution", "notes": "State a problem, then propose one clear solution." },
         { "title": "Comparing Multiple Data Sets", "taskType": "Task 1", "skill": "Varied Comparative Vocabulary", "topic": "online vs. in-person classes over 3 years", "notes": "Push students to avoid repeating 'more than' — offer synonyms." },
         { "title": "Two-Part Question Response", "taskType": "Task 2", "skill": "Multi-Part Answering", "topic": "old people and technology", "notes": "Prompt has two parts; student must answer both." },
@@ -40,9 +36,8 @@
       ]
     },
     "C1": {
-      "nextUnitNumber": 2,
+      "nextUnitNumber": 3,
       "queue": [
-        { "title": "Multi-Chart Comparison", "taskType": "Task 1", "skill": "Data Synthesis", "topic": "online classes: two charts (2020 and 2024)", "notes": "Synthesize two data sources into one coherent report." },
         { "title": "Abstract Topic Discussion", "taskType": "Task 2", "skill": "Abstract Reasoning", "topic": "automation and the future of work", "notes": "Discuss an abstract idea while grounding it in concrete examples." },
         { "title": "Academic Process Diagram", "taskType": "Task 1", "skill": "Process Description (Academic)", "topic": "how an online course is developed", "notes": "Describe a multi-step academic/institutional process." },
         { "title": "Extended Cause-Effect-Solution Essay", "taskType": "Task 2", "skill": "Extended Cause-Effect-Solution", "topic": "cities and countryside migration", "notes": "Cause, effect, then a proposed solution in one flowing paragraph." },
@@ -50,9 +45,8 @@
       ]
     },
     "C2": {
-      "nextUnitNumber": 2,
+      "nextUnitNumber": 3,
       "queue": [
-        { "title": "Complex Data Synthesis", "taskType": "Task 1", "skill": "Multi-Source Synthesis", "topic": "public transport usage across three cities", "notes": "Synthesize three data sources with precise, varied comparison language." },
         { "title": "Philosophical IELTS Topic Discussion", "taskType": "Task 2", "skill": "Critical Discussion", "topic": "technology and human connection", "notes": "Explore a nuanced, less concrete IELTS-aligned topic critically." },
         { "title": "Full Academic Report Structure", "taskType": "Task 1", "skill": "Complete Report Structure", "topic": "environment survey full report", "notes": "Overview + body paragraphs + comparison combined into one structured report." },
         { "title": "Critical Evaluation Essay", "taskType": "Task 2", "skill": "Critical Evaluation", "topic": "studying abroad vs. studying locally", "notes": "Critically evaluate strengths and weaknesses of each side." },

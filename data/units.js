@@ -66,6 +66,16 @@ const IELTS_UNITS = [
     description: "Expand a basic opinion sentence into opinion + reason using \"because\".",
     href: "units/a1-unit5-task2-reason.html"
   },
+  {
+    id: "a1-unit6-task1-three-points",
+    level: "A1",
+    unitNumber: 6,
+    title: "Describing Three Data Points",
+    taskType: "Task 1",
+    skill: "Multiple Data Description",
+    description: "Write one short sentence for each of three rows in a data table.",
+    href: "units/a1-unit6-task1-three-points.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -77,6 +87,16 @@ const IELTS_UNITS = [
     skill: "Paragraph Building",
     description: "Build a two-sentence opinion paragraph with a supporting reason.",
     href: "units/a2-unit1-task2-opinion-reason.html"
+  },
+  {
+    id: "a2-unit2-task2-example",
+    level: "A2",
+    unitNumber: 2,
+    title: "Opinion + Reason + Example",
+    taskType: "Task 2",
+    skill: "Idea Development",
+    description: "Support your reason with a specific example using \"for example\".",
+    href: "units/a2-unit2-task2-example.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -90,6 +110,16 @@ const IELTS_UNITS = [
     description: "Build a 4-5 sentence paragraph: opinion, two sequenced reasons, and one example.",
     href: "units/b1-unit1-task2-opinion-paragraph.html"
   },
+  {
+    id: "b1-unit2-task1-overview",
+    level: "B1",
+    unitNumber: 2,
+    title: "Chart Overview Sentence",
+    taskType: "Task 1",
+    skill: "Overview Writing",
+    description: "Identify and state the single biggest trend in a chart in one overview sentence.",
+    href: "units/b1-unit2-task1-overview.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -101,6 +131,16 @@ const IELTS_UNITS = [
     skill: "Balanced Argument",
     description: "Write one short paragraph per side of an issue, plus a brief closing opinion.",
     href: "units/b2-unit1-task2-advantages-disadvantages.html"
+  },
+  {
+    id: "b2-unit2-task1-overview-detail",
+    level: "B2",
+    unitNumber: 2,
+    title: "Full Bar Chart Overview",
+    taskType: "Task 1",
+    skill: "Overview + Supporting Detail",
+    description: "Write an overview sentence plus two supporting detail sentences for a bar chart.",
+    href: "units/b2-unit2-task1-overview-detail.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -114,6 +154,16 @@ const IELTS_UNITS = [
     description: "Acknowledge an opposing view before rebutting it and stating the consequence.",
     href: "units/c1-unit1-task2-counter-point.html"
   },
+  {
+    id: "c1-unit2-task1-synthesis",
+    level: "C1",
+    unitNumber: 2,
+    title: "Multi-Chart Comparison",
+    taskType: "Task 1",
+    skill: "Data Synthesis",
+    description: "Synthesize two related data sources into one coherent report.",
+    href: "units/c1-unit2-task1-synthesis.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -125,6 +175,16 @@ const IELTS_UNITS = [
     skill: "Hedging and Nuance",
     description: "Use hedging language and a balanced, qualified conclusion in a nuanced argumentative response.",
     href: "units/c2-unit1-task2-hedging-nuance.html"
+  },
+  {
+    id: "c2-unit2-task1-multi-synthesis",
+    level: "C2",
+    unitNumber: 2,
+    title: "Complex Data Synthesis",
+    taskType: "Task 1",
+    skill: "Multi-Source Synthesis",
+    description: "Synthesize three data sources with precise, varied comparison language.",
+    href: "units/c2-unit2-task1-multi-synthesis.html"
   }
 ];
 
