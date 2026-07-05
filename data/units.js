@@ -76,6 +76,16 @@ const IELTS_UNITS = [
     description: "Write one short sentence for each of three rows in a data table.",
     href: "units/a1-unit6-task1-three-points.html"
   },
+  {
+    id: "a1-unit7-task2-paragraph-intro",
+    level: "A1",
+    unitNumber: 7,
+    title: "Two-Sentence Opinion Paragraph",
+    taskType: "Task 2",
+    skill: "Paragraph Building (Intro)",
+    description: "Write an opinion sentence plus one supporting sentence using \"because\" or \"and\".",
+    href: "units/a1-unit7-task2-paragraph-intro.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -97,6 +107,16 @@ const IELTS_UNITS = [
     skill: "Idea Development",
     description: "Support your reason with a specific example using \"for example\".",
     href: "units/a2-unit2-task2-example.html"
+  },
+  {
+    id: "a2-unit3-task1-trend-three-points",
+    level: "A2",
+    unitNumber: 3,
+    title: "Describing a Trend Over Three Points",
+    taskType: "Task 1",
+    skill: "Trend Description with Linking Words",
+    description: "Describe three time points using \"then\" and \"after that\" to link them together.",
+    href: "units/a2-unit3-task1-trend-three-points.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -120,6 +140,16 @@ const IELTS_UNITS = [
     description: "Identify and state the single biggest trend in a chart in one overview sentence.",
     href: "units/b1-unit2-task1-overview.html"
   },
+  {
+    id: "b1-unit3-task2-both-views-intro",
+    level: "B1",
+    unitNumber: 3,
+    title: "Both-Views Discussion (Intro)",
+    taskType: "Task 2",
+    skill: "Balanced Viewpoint Intro",
+    description: "State both sides of an issue briefly before giving your own opinion.",
+    href: "units/b1-unit3-task2-both-views-intro.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -141,6 +171,16 @@ const IELTS_UNITS = [
     skill: "Overview + Supporting Detail",
     description: "Write an overview sentence plus two supporting detail sentences for a bar chart.",
     href: "units/b2-unit2-task1-overview-detail.html"
+  },
+  {
+    id: "b2-unit3-task2-problem-solution-intro",
+    level: "B2",
+    unitNumber: 3,
+    title: "Problem-Solution Essay Intro",
+    taskType: "Task 2",
+    skill: "Problem-Solution Structure",
+    description: "State a problem clearly, propose one solution, and link them with a cause-effect phrase.",
+    href: "units/b2-unit3-task2-problem-solution-intro.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -164,6 +204,16 @@ const IELTS_UNITS = [
     description: "Synthesize two related data sources into one coherent report.",
     href: "units/c1-unit2-task1-synthesis.html"
   },
+  {
+    id: "c1-unit3-task2-abstract-discussion",
+    level: "C1",
+    unitNumber: 3,
+    title: "Abstract Topic Discussion",
+    taskType: "Task 2",
+    skill: "Abstract Reasoning",
+    description: "Discuss an abstract idea while grounding it in a concrete, specific example.",
+    href: "units/c1-unit3-task2-abstract-discussion.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -185,6 +235,16 @@ const IELTS_UNITS = [
     skill: "Multi-Source Synthesis",
     description: "Synthesize three data sources with precise, varied comparison language.",
     href: "units/c2-unit2-task1-multi-synthesis.html"
+  },
+  {
+    id: "c2-unit3-task2-critical-discussion",
+    level: "C2",
+    unitNumber: 3,
+    title: "Philosophical IELTS Topic Discussion",
+    taskType: "Task 2",
+    skill: "Critical Discussion",
+    description: "Critically evaluate a nuanced claim by weighing a counter-perspective before a synthesised conclusion.",
+    href: "units/c2-unit3-task2-critical-discussion.html"
   }
 ];
 

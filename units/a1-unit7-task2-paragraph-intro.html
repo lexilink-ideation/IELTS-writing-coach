@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 7 — Two-Sentence Opinion Paragraph | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 7: Two-Sentence Opinion Paragraph</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Paragraph Building (Intro)</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>So far you have written one sentence at a time. Now you will write <strong>two</strong> sentences that work together: an opinion sentence, then a second sentence that supports it with "Because" or joins it with "and".</p>
+    <div class="pattern-box">I think ___ (opinion). Because ___ (reason).</div>
+    <p>Two short, correct sentences are better than one long, confusing one.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">These examples use a different topic (online classes) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>I think online classes are useful. Because students can learn from home.</li>
+      <li>I believe online classes save money. And students do not need to travel to school.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model sentences above):</p>
+    <div class="pattern-box">___ (I think / I believe) studying abroad is / is not a good idea. Because ___ (reason).</div>
+    <p class="hint">Now write both sentences yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Do you think studying abroad is a good idea?</div>
+    <textarea id="writingBox" placeholder="Write your opinion sentence, then a second sentence with Because or And..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My first sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>Every sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "I think" / "I believe".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "Because" or "And" to add a second sentence.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My paragraph is about studying abroad.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote two sentences, not just one.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit7-task2-paragraph-intro",
+    minWords: 12,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    opinionPhrases: ["i think", "i believe", "in my opinion"],
+    keywordGroups: [
+      { label: "\"Because\" or \"And\" to add a second sentence", words: ["because", "and"] },
+      { label: "\"abroad\" or \"studying abroad\"", words: ["abroad"] }
+    ],
+    linkingWords: ["also", "but"],
+    modelAnswer: "I think studying abroad is a good idea. Because students learn about new cultures and become more independent.",
+    skillConnection: "Task 2: writing two connected sentences — opinion plus support — is the first step toward full IELTS paragraphs with multiple sentences.",
+    nextChallenge: "Try writing a third sentence that gives a second reason."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

@@ -3,51 +3,44 @@
   "_needsMoreRoadmap": false,
   "levels": {
     "A1": {
-      "nextUnitNumber": 7,
-      "queue": [
-        { "title": "Two-Sentence Opinion Paragraph", "taskType": "Task 2", "skill": "Paragraph Building (Intro)", "topic": "studying abroad", "notes": "Opinion sentence + one supporting sentence using 'because' or 'and'." }
-      ]
+      "nextUnitNumber": 8,
+      "queue": []
     },
     "A2": {
-      "nextUnitNumber": 3,
+      "nextUnitNumber": 4,
       "queue": [
-        { "title": "Describing a Trend Over Three Points", "taskType": "Task 1", "skill": "Trend Description with Linking Words", "topic": "public transport usage 2018-2022 (3 data points)", "notes": "Use 'then' and 'after that' to link three time points." },
         { "title": "Comparing Three Items", "taskType": "Task 1", "skill": "Multi-item Comparison", "topic": "cities and countryside population", "notes": "Use 'the highest' / 'the lowest' across 3 items." },
         { "title": "Two Reasons for an Opinion", "taskType": "Task 2", "skill": "Idea Sequencing", "topic": "old people and technology", "notes": "Use 'firstly' and 'secondly' to sequence two reasons." },
         { "title": "Describing Change Across a Table", "taskType": "Task 1", "skill": "Change Description", "topic": "environment survey results", "notes": "Use 'increase', 'decrease', and 'stay the same' together across a small table." }
       ]
     },
     "B1": {
-      "nextUnitNumber": 3,
+      "nextUnitNumber": 4,
       "queue": [
-        { "title": "Both-Views Discussion (Intro)", "taskType": "Task 2", "skill": "Balanced Viewpoint Intro", "topic": "children and screen time", "notes": "State both sides briefly before giving a personal opinion." },
         { "title": "Comparing Two Categories Over Time", "taskType": "Task 1", "skill": "Two-Category Comparison", "topic": "books vs. videos preference by year", "notes": "Use a simple 2x2 data table (2 categories x 2 years)." },
         { "title": "Cause and Effect Structure", "taskType": "Task 2", "skill": "Cause-Effect Writing", "topic": "technology and the environment", "notes": "Use 'as a result' / 'this means that'." },
         { "title": "Describing a Simple Process", "taskType": "Task 1", "skill": "Process Description", "topic": "how students sign up for online classes", "notes": "Describe 2-3 steps in order using 'first', 'next', 'finally'." }
       ]
     },
     "B2": {
-      "nextUnitNumber": 3,
+      "nextUnitNumber": 4,
       "queue": [
-        { "title": "Problem-Solution Essay Intro", "taskType": "Task 2", "skill": "Problem-Solution Structure", "topic": "environment and pollution", "notes": "State a problem, then propose one clear solution." },
         { "title": "Comparing Multiple Data Sets", "taskType": "Task 1", "skill": "Varied Comparative Vocabulary", "topic": "online vs. in-person classes over 3 years", "notes": "Push students to avoid repeating 'more than' — offer synonyms." },
         { "title": "Two-Part Question Response", "taskType": "Task 2", "skill": "Multi-Part Answering", "topic": "old people and technology", "notes": "Prompt has two parts; student must answer both." },
         { "title": "Pie Chart Proportions", "taskType": "Task 1", "skill": "Proportion Description", "topic": "how students spend study time", "notes": "Use 'a quarter of', 'nearly half', 'the majority'." }
       ]
     },
     "C1": {
-      "nextUnitNumber": 3,
+      "nextUnitNumber": 4,
       "queue": [
-        { "title": "Abstract Topic Discussion", "taskType": "Task 2", "skill": "Abstract Reasoning", "topic": "automation and the future of work", "notes": "Discuss an abstract idea while grounding it in concrete examples." },
         { "title": "Academic Process Diagram", "taskType": "Task 1", "skill": "Process Description (Academic)", "topic": "how an online course is developed", "notes": "Describe a multi-step academic/institutional process." },
         { "title": "Extended Cause-Effect-Solution Essay", "taskType": "Task 2", "skill": "Extended Cause-Effect-Solution", "topic": "cities and countryside migration", "notes": "Cause, effect, then a proposed solution in one flowing paragraph." },
         { "title": "Map/Diagram Change Description", "taskType": "Task 1", "skill": "Change Over Time (Map)", "topic": "a university campus before and after expansion", "notes": "Describe spatial change using directional language." }
       ]
     },
     "C2": {
-      "nextUnitNumber": 3,
+      "nextUnitNumber": 4,
       "queue": [
-        { "title": "Philosophical IELTS Topic Discussion", "taskType": "Task 2", "skill": "Critical Discussion", "topic": "technology and human connection", "notes": "Explore a nuanced, less concrete IELTS-aligned topic critically." },
         { "title": "Full Academic Report Structure", "taskType": "Task 1", "skill": "Complete Report Structure", "topic": "environment survey full report", "notes": "Overview + body paragraphs + comparison combined into one structured report." },
         { "title": "Critical Evaluation Essay", "taskType": "Task 2", "skill": "Critical Evaluation", "topic": "studying abroad vs. studying locally", "notes": "Critically evaluate strengths and weaknesses of each side." },
         { "title": "Comprehensive Task 1 Report", "taskType": "Task 1", "skill": "Full Task 1 Report", "topic": "online classes: full 4-year dataset", "notes": "Combine overview, comparison, and trend description in one full short report." }
