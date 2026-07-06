@@ -118,6 +118,16 @@ const IELTS_UNITS = [
     description: "Describe three time points using \"then\" and \"after that\" to link them together.",
     href: "units/a2-unit3-task1-trend-three-points.html"
   },
+  {
+    id: "a2-unit4-task1-three-item-comparison",
+    level: "A2",
+    unitNumber: 4,
+    title: "Comparing Three Items",
+    taskType: "Task 1",
+    skill: "Multi-item Comparison",
+    description: "Compare three items using \"the highest\" and \"the lowest\" to rank the data.",
+    href: "units/a2-unit4-task1-three-item-comparison.html"
+  },
 
   // ---------------------------- B1 ----------------------------
   {
@@ -149,6 +159,16 @@ const IELTS_UNITS = [
     skill: "Balanced Viewpoint Intro",
     description: "State both sides of an issue briefly before giving your own opinion.",
     href: "units/b1-unit3-task2-both-views-intro.html"
+  },
+  {
+    id: "b1-unit4-task1-two-category-comparison",
+    level: "B1",
+    unitNumber: 4,
+    title: "Comparing Two Categories Over Time",
+    taskType: "Task 1",
+    skill: "Two-Category Comparison",
+    description: "Describe two categories across two years using a contrast connector like \"whereas\".",
+    href: "units/b1-unit4-task1-two-category-comparison.html"
   },
 
   // ---------------------------- B2 ----------------------------
@@ -182,6 +202,16 @@ const IELTS_UNITS = [
     description: "State a problem clearly, propose one solution, and link them with a cause-effect phrase.",
     href: "units/b2-unit3-task2-problem-solution-intro.html"
   },
+  {
+    id: "b2-unit4-task1-varied-comparison",
+    level: "B2",
+    unitNumber: 4,
+    title: "Comparing Multiple Data Sets",
+    taskType: "Task 1",
+    skill: "Varied Comparative Vocabulary",
+    description: "Describe change across three time points using varied comparative language instead of repeating \"more than\".",
+    href: "units/b2-unit4-task1-varied-comparison.html"
+  },
 
   // ---------------------------- C1 ----------------------------
   {
@@ -214,6 +244,16 @@ const IELTS_UNITS = [
     description: "Discuss an abstract idea while grounding it in a concrete, specific example.",
     href: "units/c1-unit3-task2-abstract-discussion.html"
   },
+  {
+    id: "c1-unit4-task1-academic-process",
+    level: "C1",
+    unitNumber: 4,
+    title: "Academic Process Diagram",
+    taskType: "Task 1",
+    skill: "Process Description (Academic)",
+    description: "Describe a multi-step academic process using sequencing language and the passive voice.",
+    href: "units/c1-unit4-task1-academic-process.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -245,6 +285,16 @@ const IELTS_UNITS = [
     skill: "Critical Discussion",
     description: "Critically evaluate a nuanced claim by weighing a counter-perspective before a synthesised conclusion.",
     href: "units/c2-unit3-task2-critical-discussion.html"
+  },
+  {
+    id: "c2-unit4-task1-full-report",
+    level: "C2",
+    unitNumber: 4,
+    title: "Full Academic Report Structure",
+    taskType: "Task 1",
+    skill: "Complete Report Structure",
+    description: "Combine an overview, body comparisons, and a synthesis statement into one complete report.",
+    href: "units/c2-unit4-task1-full-report.html"
   }
 ];
 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A2 Unit 4 — Comparing Three Items | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A2</span>
+    <span class="unit-pill unit-pill-task">Task 1</span>
+  </div>
+  <h1 class="unit-page-title">Unit 4: Comparing Three Items</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 1 — Multi-item Comparison</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>When a table has three items, don't just list them one by one. Use <strong>"the highest"</strong> and <strong>"the lowest"</strong> to show which item stands out at each end.</p>
+    <div class="pattern-box">___ (item) has the highest ___ (thing), at ___ (number). ___ (item) has the lowest, at ___ (number). ___ (item) is in the middle, at ___ (number).</div>
+    <p>"The highest" and "the lowest" let you rank the three items instead of just describing them separately.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (favourite school subjects) so you can see the pattern — then apply it to the new data below.</p>
+    <ul class="model-sentence-list">
+      <li>Mathematics has the highest number of votes, at 45. Art has the lowest, at 10. Science is in the middle, at 25.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the data in the table below (not the model sentence above):</p>
+    <div class="pattern-box">___ (place) has the highest population, at ___ (number). ___ (place) has the lowest, at ___ (number). ___ (place) is in the middle, at ___ (number).</div>
+    <p class="hint">Now write your full comparison yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="data-box">
+      <p class="data-box-title">Data: Population by Settlement Type (thousands)</p>
+      <table class="data-table">
+        <tr><th>Settlement Type</th><th>Population (thousands)</th></tr>
+        <tr><td>City</td><td>850</td></tr>
+        <tr><td>Town</td><td>320</td></tr>
+        <tr><td>Village</td><td>60</td></tr>
+      </table>
+    </div>
+    <p class="hint">Look at the table. Now write three sentences comparing the city, town, and village — don't copy the lesson example.</p>
+    <textarea id="writingBox" placeholder="Use 'the highest' and 'the lowest' to compare the three settlement types..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My first sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>Every sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "the highest" for one settlement type.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "the lowest" for another settlement type.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I included all three numbers: 850, 320, and 60.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentences are about population.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a2-unit4-task1-three-item-comparison",
+    minWords: 25,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "\"the highest\"", words: ["the highest", "has the highest"] },
+      { label: "\"the lowest\"", words: ["the lowest", "has the lowest"] },
+      { label: "the number \"850\"", words: ["850"] },
+      { label: "the number \"320\"", words: ["320"] },
+      { label: "the number \"60\"", words: ["60"] },
+      { label: "\"population\"", words: ["population"] }
+    ],
+    comparisonWords: ["more than", "fewer than", "higher than", "lower than"],
+    linkingWords: ["overall", "in comparison"],
+    modelAnswer: "The city has the highest population, at 850,000 people. The village has the lowest, at just 60,000 people. The town is in the middle, with 320,000 people.",
+    skillConnection: "Task 1: comparing three items directly using \"the highest\" and \"the lowest\" lets you rank data clearly instead of just listing numbers one by one.",
+    nextChallenge: "Try adding a sentence that compares the city and the village directly using \"more than\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>
