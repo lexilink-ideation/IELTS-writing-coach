@@ -128,6 +128,16 @@ const IELTS_UNITS = [
     description: "Compare three items using \"the highest\" and \"the lowest\" to rank the data.",
     href: "units/a2-unit4-task1-three-item-comparison.html"
   },
+  {
+    id: "a2-unit5-task2-idea-sequencing",
+    level: "A2",
+    unitNumber: 5,
+    title: "Two Reasons for an Opinion",
+    taskType: "Task 2",
+    skill: "Idea Sequencing",
+    description: "Sequence two reasons for your opinion using \"firstly\" and \"secondly\".",
+    href: "units/a2-unit5-task2-idea-sequencing.html"
+  },
 
   // ---------------------------- B1 ----------------------------
   {
@@ -169,6 +179,16 @@ const IELTS_UNITS = [
     skill: "Two-Category Comparison",
     description: "Describe two categories across two years using a contrast connector like \"whereas\".",
     href: "units/b1-unit4-task1-two-category-comparison.html"
+  },
+  {
+    id: "b1-unit5-task2-cause-effect",
+    level: "B1",
+    unitNumber: 5,
+    title: "Cause and Effect Structure",
+    taskType: "Task 2",
+    skill: "Cause-Effect Writing",
+    description: "Link a cause to its effect using \"as a result\" and \"this means that\".",
+    href: "units/b1-unit5-task2-cause-effect.html"
   },
 
   // ---------------------------- B2 ----------------------------
@@ -212,6 +232,16 @@ const IELTS_UNITS = [
     description: "Describe change across three time points using varied comparative language instead of repeating \"more than\".",
     href: "units/b2-unit4-task1-varied-comparison.html"
   },
+  {
+    id: "b2-unit5-task2-multi-part-answering",
+    level: "B2",
+    unitNumber: 5,
+    title: "Two-Part Question Response",
+    taskType: "Task 2",
+    skill: "Multi-Part Answering",
+    description: "Answer both parts of a two-part prompt clearly and separately.",
+    href: "units/b2-unit5-task2-multi-part-answering.html"
+  },
 
   // ---------------------------- C1 ----------------------------
   {
@@ -254,6 +284,16 @@ const IELTS_UNITS = [
     description: "Describe a multi-step academic process using sequencing language and the passive voice.",
     href: "units/c1-unit4-task1-academic-process.html"
   },
+  {
+    id: "c1-unit5-task2-cause-effect-solution",
+    level: "C1",
+    unitNumber: 5,
+    title: "Extended Cause-Effect-Solution Essay",
+    taskType: "Task 2",
+    skill: "Extended Cause-Effect-Solution",
+    description: "Weave cause, effect, and a proposed solution into one flowing paragraph.",
+    href: "units/c1-unit5-task2-cause-effect-solution.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -295,6 +335,16 @@ const IELTS_UNITS = [
     skill: "Complete Report Structure",
     description: "Combine an overview, body comparisons, and a synthesis statement into one complete report.",
     href: "units/c2-unit4-task1-full-report.html"
+  },
+  {
+    id: "c2-unit5-task2-critical-evaluation",
+    level: "C2",
+    unitNumber: 5,
+    title: "Critical Evaluation Essay",
+    taskType: "Task 2",
+    skill: "Critical Evaluation",
+    description: "Critically evaluate the strengths and weaknesses of two options before a balanced conclusion.",
+    href: "units/c2-unit5-task2-critical-evaluation.html"
   }
 ];
 

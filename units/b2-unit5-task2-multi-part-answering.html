@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B2 Unit 5 — Two-Part Question Response | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">B2</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 5: Two-Part Question Response</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Multi-Part Answering</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>Some Task 2 prompts ask two questions in one. You must answer <strong>both</strong> parts clearly and separately — examiners specifically check that neither part is ignored.</p>
+    <div class="pattern-box">There are several reasons why ___ (answer to part 1). In terms of solutions, ___ (answer to part 2).</div>
+    <p>Keeping the two parts in separate sentences makes it easy for the examiner to see that you addressed the whole question.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (children and screen time) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>There are several reasons why children spend so much time on screens, including easy access to smartphones and tablets from a very young age. In terms of solutions, parents can set clear daily time limits and encourage alternative activities such as sports or reading.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model paragraph above):</p>
+    <div class="pattern-box">There are several reasons why ___ (why older people struggle with technology). In terms of solutions, ___ (what can be done to help them).</div>
+    <p class="hint">Now write your full response yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Some people think older people struggle to keep up with new technology. Why do you think this is the case, and what can be done to help them?</div>
+    <textarea id="writingBox" placeholder="Answer the reason (part 1) and the solution (part 2), each in its own sentence..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>I answered part 1 (why older people struggle) using a phrase like "there are several reasons why".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I answered part 2 (what can help) using a phrase like "in terms of solutions".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My response is about older people and technology.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used a linking word such as "however" or "moreover" somewhere.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote at least 42 words.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "b2-unit5-task2-multi-part-answering",
+    minWords: 42,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "a part-1 answer phrase (\"there are several reasons why\" or \"one reason why\")", words: ["there are several reasons why", "one reason why", "the main reason"] },
+      { label: "a part-2 answer phrase (\"in terms of solutions\" or \"to address this\")", words: ["in terms of solutions", "one solution", "to address this", "to help with this"] },
+      { label: "\"older people\" or \"technology\"", words: ["older people", "elderly", "technology"] }
+    ],
+    linkingWords: ["however", "moreover", "in addition"],
+    modelAnswer: "There are several reasons why older people often struggle to keep up with new technology, including limited exposure to digital devices earlier in life and interfaces that are not designed with their needs in mind. In terms of solutions, community centres could offer free, patient, one-to-one training sessions, and companies could design simpler, more accessible versions of their apps and devices.",
+    skillConnection: "Task 2: two-part prompts require you to address both questions explicitly and separately — examiners specifically check that neither part is ignored.",
+    nextChallenge: "Try linking your two parts with \"Furthermore,\" to make the transition smoother."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

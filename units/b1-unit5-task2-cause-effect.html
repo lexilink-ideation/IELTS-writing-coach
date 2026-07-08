@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B1 Unit 5 — Cause and Effect Structure | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">B1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 5: Cause and Effect Structure</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Cause-Effect Writing</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>A cause-effect paragraph states something that is happening, shows its effect with <strong>"as a result"</strong>, and then explains the wider implication with <strong>"this means that"</strong>.</p>
+    <div class="pattern-box">___ (cause). As a result, ___ (effect). This means that ___ (implication).</div>
+    <p>"As a result" and "this means that" build a clear chain of reasoning that examiners look for in Task Response.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (public transport) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>More cities have introduced electric buses in recent years. As a result, air pollution from public transport has decreased significantly. This means that city residents now breathe cleaner air, especially in areas near busy bus routes.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model paragraph above):</p>
+    <div class="pattern-box">Many people replace their smartphones and other devices very often. As a result, ___ (effect on the environment). This means that ___ (implication).</div>
+    <p class="hint">Now write your full paragraph yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Smartphones and other devices are replaced very frequently. Explain how this trend affects the environment, describing a cause and its effect using "as a result" and "this means that".</div>
+    <textarea id="writingBox" placeholder="State the cause, then its effect using 'as a result', then the implication using 'this means that'..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My first sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>Every sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "as a result" to introduce an effect.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "this means that" to state a wider implication.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My paragraph is about technology and the environment.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote at least 35 words.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "b1-unit5-task2-cause-effect",
+    minWords: 35,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "\"as a result\" to introduce an effect", words: ["as a result"] },
+      { label: "\"this means that\" to state an implication", words: ["this means that"] },
+      { label: "\"technology\", \"environment\", or \"devices\"", words: ["technology", "environment", "devices", "device", "electronic waste", "e-waste"] }
+    ],
+    linkingWords: ["in addition", "however", "also"],
+    modelAnswer: "Many people now replace their smartphones every one or two years, even when their old device still works well. As a result, huge amounts of electronic waste are produced every year, much of which ends up in landfills. This means that valuable materials are lost and harmful chemicals can leak into the soil and water.",
+    skillConnection: "Task 2: linking a cause to its effect with \"as a result\", then stating a broader implication with \"this means that\", builds a clear chain of reasoning examiners look for in Task Response.",
+    nextChallenge: "Try adding a second effect using \"In addition,\" before your final sentence."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

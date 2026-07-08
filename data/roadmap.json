@@ -7,37 +7,32 @@
       "queue": []
     },
     "A2": {
-      "nextUnitNumber": 5,
+      "nextUnitNumber": 6,
       "queue": [
-        { "title": "Two Reasons for an Opinion", "taskType": "Task 2", "skill": "Idea Sequencing", "topic": "old people and technology", "notes": "Use 'firstly' and 'secondly' to sequence two reasons." },
         { "title": "Describing Change Across a Table", "taskType": "Task 1", "skill": "Change Description", "topic": "environment survey results", "notes": "Use 'increase', 'decrease', and 'stay the same' together across a small table." }
       ]
     },
     "B1": {
-      "nextUnitNumber": 5,
+      "nextUnitNumber": 6,
       "queue": [
-        { "title": "Cause and Effect Structure", "taskType": "Task 2", "skill": "Cause-Effect Writing", "topic": "technology and the environment", "notes": "Use 'as a result' / 'this means that'." },
         { "title": "Describing a Simple Process", "taskType": "Task 1", "skill": "Process Description", "topic": "how students sign up for online classes", "notes": "Describe 2-3 steps in order using 'first', 'next', 'finally'." }
       ]
     },
     "B2": {
-      "nextUnitNumber": 5,
+      "nextUnitNumber": 6,
       "queue": [
-        { "title": "Two-Part Question Response", "taskType": "Task 2", "skill": "Multi-Part Answering", "topic": "old people and technology", "notes": "Prompt has two parts; student must answer both." },
         { "title": "Pie Chart Proportions", "taskType": "Task 1", "skill": "Proportion Description", "topic": "how students spend study time", "notes": "Use 'a quarter of', 'nearly half', 'the majority'." }
       ]
     },
     "C1": {
-      "nextUnitNumber": 5,
+      "nextUnitNumber": 6,
       "queue": [
-        { "title": "Extended Cause-Effect-Solution Essay", "taskType": "Task 2", "skill": "Extended Cause-Effect-Solution", "topic": "cities and countryside migration", "notes": "Cause, effect, then a proposed solution in one flowing paragraph." },
         { "title": "Map/Diagram Change Description", "taskType": "Task 1", "skill": "Change Over Time (Map)", "topic": "a university campus before and after expansion", "notes": "Describe spatial change using directional language." }
       ]
     },
     "C2": {
-      "nextUnitNumber": 5,
+      "nextUnitNumber": 6,
       "queue": [
-        { "title": "Critical Evaluation Essay", "taskType": "Task 2", "skill": "Critical Evaluation", "topic": "studying abroad vs. studying locally", "notes": "Critically evaluate strengths and weaknesses of each side." },
         { "title": "Comprehensive Task 1 Report", "taskType": "Task 1", "skill": "Full Task 1 Report", "topic": "online classes: full 4-year dataset", "notes": "Combine overview, comparison, and trend description in one full short report." }
       ]
     }
