@@ -1,40 +1,30 @@
 {
   "_comment": "Curriculum roadmap for the daily 'new unit' scheduled task. Every run, the task builds ONE new unit for EACH of the 6 CEFR levels (not a rotation anymore). Each level's 'queue' is an ordered list of not-yet-built units — the task pops the first item off each level's queue, builds it, removes it from that queue, and bumps that level's nextUnitNumber. If a level's queue is empty on a given day, that level is skipped for the day (noted in the run summary) while the other levels still get built. If ALL 6 queues are empty, set _needsMoreRoadmap to true and stop.",
-  "_needsMoreRoadmap": false,
+  "_needsMoreRoadmap": true,
   "levels": {
     "A1": {
       "nextUnitNumber": 8,
       "queue": []
     },
     "A2": {
-      "nextUnitNumber": 6,
-      "queue": [
-        { "title": "Describing Change Across a Table", "taskType": "Task 1", "skill": "Change Description", "topic": "environment survey results", "notes": "Use 'increase', 'decrease', and 'stay the same' together across a small table." }
-      ]
+      "nextUnitNumber": 7,
+      "queue": []
     },
     "B1": {
-      "nextUnitNumber": 6,
-      "queue": [
-        { "title": "Describing a Simple Process", "taskType": "Task 1", "skill": "Process Description", "topic": "how students sign up for online classes", "notes": "Describe 2-3 steps in order using 'first', 'next', 'finally'." }
-      ]
+      "nextUnitNumber": 7,
+      "queue": []
     },
     "B2": {
-      "nextUnitNumber": 6,
-      "queue": [
-        { "title": "Pie Chart Proportions", "taskType": "Task 1", "skill": "Proportion Description", "topic": "how students spend study time", "notes": "Use 'a quarter of', 'nearly half', 'the majority'." }
-      ]
+      "nextUnitNumber": 7,
+      "queue": []
     },
     "C1": {
-      "nextUnitNumber": 6,
-      "queue": [
-        { "title": "Map/Diagram Change Description", "taskType": "Task 1", "skill": "Change Over Time (Map)", "topic": "a university campus before and after expansion", "notes": "Describe spatial change using directional language." }
-      ]
+      "nextUnitNumber": 7,
+      "queue": []
     },
     "C2": {
-      "nextUnitNumber": 6,
-      "queue": [
-        { "title": "Comprehensive Task 1 Report", "taskType": "Task 1", "skill": "Full Task 1 Report", "topic": "online classes: full 4-year dataset", "notes": "Combine overview, comparison, and trend description in one full short report." }
-      ]
+      "nextUnitNumber": 7,
+      "queue": []
     }
   }
 }

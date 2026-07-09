@@ -138,6 +138,16 @@ const IELTS_UNITS = [
     description: "Sequence two reasons for your opinion using \"firstly\" and \"secondly\".",
     href: "units/a2-unit5-task2-idea-sequencing.html"
   },
+  {
+    id: "a2-unit6-task1-change-description",
+    level: "A2",
+    unitNumber: 6,
+    title: "Describing Change Across a Table",
+    taskType: "Task 1",
+    skill: "Change Description",
+    description: "Use \"increased\", \"decreased\", and \"stayed the same\" together across a small table.",
+    href: "units/a2-unit6-task1-change-description.html"
+  },
 
   // ---------------------------- B1 ----------------------------
   {
@@ -189,6 +199,16 @@ const IELTS_UNITS = [
     skill: "Cause-Effect Writing",
     description: "Link a cause to its effect using \"as a result\" and \"this means that\".",
     href: "units/b1-unit5-task2-cause-effect.html"
+  },
+  {
+    id: "b1-unit6-task1-process-description",
+    level: "B1",
+    unitNumber: 6,
+    title: "Describing a Simple Process",
+    taskType: "Task 1",
+    skill: "Process Description",
+    description: "Describe 2-3 steps in order using \"first\", \"next\", and \"finally\".",
+    href: "units/b1-unit6-task1-process-description.html"
   },
 
   // ---------------------------- B2 ----------------------------
@@ -242,6 +262,16 @@ const IELTS_UNITS = [
     description: "Answer both parts of a two-part prompt clearly and separately.",
     href: "units/b2-unit5-task2-multi-part-answering.html"
   },
+  {
+    id: "b2-unit6-task1-proportion-description",
+    level: "B2",
+    unitNumber: 6,
+    title: "Pie Chart Proportions",
+    taskType: "Task 1",
+    skill: "Proportion Description",
+    description: "Use \"a quarter of\", \"nearly half\", and \"the majority\" to describe pie chart data.",
+    href: "units/b2-unit6-task1-proportion-description.html"
+  },
 
   // ---------------------------- C1 ----------------------------
   {
@@ -294,6 +324,16 @@ const IELTS_UNITS = [
     description: "Weave cause, effect, and a proposed solution into one flowing paragraph.",
     href: "units/c1-unit5-task2-cause-effect-solution.html"
   },
+  {
+    id: "c1-unit6-task1-map-diagram-change",
+    level: "C1",
+    unitNumber: 6,
+    title: "Map/Diagram Change Description",
+    taskType: "Task 1",
+    skill: "Change Over Time (Map)",
+    description: "Describe spatial change on a campus map using directional language and precise change verbs.",
+    href: "units/c1-unit6-task1-map-diagram-change.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -345,6 +385,16 @@ const IELTS_UNITS = [
     skill: "Critical Evaluation",
     description: "Critically evaluate the strengths and weaknesses of two options before a balanced conclusion.",
     href: "units/c2-unit5-task2-critical-evaluation.html"
+  },
+  {
+    id: "c2-unit6-task1-comprehensive-report",
+    level: "C2",
+    unitNumber: 6,
+    title: "Comprehensive Task 1 Report",
+    taskType: "Task 1",
+    skill: "Full Task 1 Report",
+    description: "Combine an overview, full trend description, and explicit comparison into one complete four-year report.",
+    href: "units/c2-unit6-task1-comprehensive-report.html"
   }
 ];
 
