@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B1 Unit 7 — Both Views Plus Opinion | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">B1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 7: Both Views Plus Opinion</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Balanced Viewpoint (Full)</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>You already know how to state both views briefly. Now make your own opinion sentence stronger by adding <strong>"because"</strong> and a real reason — not just a bare statement of your view.</p>
+    <div class="pattern-box">Some people believe ___ (view one). Others believe ___ (view two). In my opinion, ___ (your view), because ___ (reason).</div>
+    <p>A reason after "because" turns your opinion from a simple statement into a supported argument.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (automation and jobs) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>Some people believe automation will destroy jobs and increase unemployment. Others believe it will create new kinds of jobs that do not exist yet. In my opinion, automation will ultimately create more opportunities than it removes, because history shows that new technologies tend to generate entirely new industries.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model paragraph above):</p>
+    <div class="pattern-box">Some people believe ___ (view about studying abroad). Others believe ___ (opposing view). In my opinion, ___, because ___.</div>
+    <p class="hint">Now write your full paragraph yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Some people think studying abroad is essential for a good education, while others think students can get an equally good education at home. Discuss both views and give your opinion.</div>
+    <textarea id="writingBox" placeholder="State both views briefly, then give your opinion supported by a reason with 'because'..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>I used "Some people believe" to state the first view.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "Others believe" to state the second view.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I closed with "In my opinion" and my own view.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I supported my opinion with "because" and a real reason.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My paragraph is about studying abroad.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote at least 38 words.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "b1-unit7-task2-both-views-full",
+    minWords: 38,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    opinionPhrases: ["in my opinion", "i believe", "i think"],
+    keywordGroups: [
+      { label: "\"Some people\" for the first view", words: ["some people", "some believe"] },
+      { label: "\"Others\" for the second view", words: ["others", "other people"] },
+      { label: "\"because\" with a reason for your opinion", words: ["because"] },
+      { label: "\"abroad\" or \"studying abroad\"", words: ["abroad"] }
+    ],
+    linkingWords: ["however", "although", "on the other hand"],
+    modelAnswer: "Some people believe studying abroad gives students a broader, more valuable education than they could get at home. Others believe local universities can offer an equally strong education at a much lower cost. In my opinion, studying abroad is usually worth the extra expense, because the independence and cultural exposure it provides are difficult to gain any other way.",
+    skillConnection: "Task 2: supporting your final opinion with \"because\" and a clear reason, rather than leaving it unsupported, is essential for a strong Task Response score in \"discuss both views\" essays.",
+    nextChallenge: "Try adding a short example after your reason using \"for instance\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

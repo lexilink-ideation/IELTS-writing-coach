@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 8 — Naming the Highest Category | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 1</span>
+  </div>
+  <h1 class="unit-page-title">Unit 8: Naming the Highest Category</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 1 — Highest Item (Simple)</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>You can name the biggest number in a table with one simple sentence. Use <strong>"the most popular is"</strong> and then give its number.</p>
+    <div class="pattern-box">The most popular ___ (category type) is ___ (option), with ___ (number).</div>
+    <p>This one sentence tells the reader the single most important fact in the table.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (favourite pets) so you can see the pattern — then apply it to the new data below.</p>
+    <ul class="model-sentence-list">
+      <li>The most popular pet is dogs, with 42 votes.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the data in the table below (not the model sentence above):</p>
+    <div class="pattern-box">The most popular way to travel to work is ___ (option), with ___ (number) people.</div>
+    <p class="hint">Now write your full sentence yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="data-box">
+      <p class="data-box-title">Data: How People Travel to Work</p>
+      <table class="data-table">
+        <tr><th>Method</th><th>Number of People</th></tr>
+        <tr><td>Bus</td><td>50</td></tr>
+        <tr><td>Train</td><td>20</td></tr>
+        <tr><td>Bicycle</td><td>30</td></tr>
+      </table>
+    </div>
+    <p class="hint">Look at the table. Now write one sentence naming the most popular way to travel — don't copy the lesson example.</p>
+    <textarea id="writingBox" placeholder="Use 'the most popular is' to name the transport method with the highest number..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "the most popular is".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I named "bus" as the option.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I included the number 50.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit8-task1-highest-category",
+    minWords: 8,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "\"the most popular is\"", words: ["the most popular is", "most popular"] },
+      { label: "\"bus\"", words: ["bus"] },
+      { label: "the number \"50\"", words: ["50"] }
+    ],
+    modelAnswer: "The most popular way to travel to work is the bus, with 50 people.",
+    skillConnection: "Task 1: naming the highest category in one clear sentence is the simplest form of identifying the key feature in a data set.",
+    nextChallenge: "Try adding a second sentence naming the least popular option using \"the least popular is\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

@@ -1,30 +1,42 @@
 {
   "_comment": "Curriculum roadmap for the daily 'new unit' scheduled task. Every run, the task builds ONE new unit for EACH of the 6 CEFR levels (not a rotation anymore). Each level's 'queue' is an ordered list of not-yet-built units — the task pops the first item off each level's queue, builds it, removes it from that queue, and bumps that level's nextUnitNumber. If a level's queue is empty on a given day, that level is skipped for the day (noted in the run summary) while the other levels still get built. If ALL 6 queues are empty, set _needsMoreRoadmap to true and stop.",
-  "_needsMoreRoadmap": true,
+  "_needsMoreRoadmap": false,
   "levels": {
     "A1": {
-      "nextUnitNumber": 8,
-      "queue": []
+      "nextUnitNumber": 9,
+      "queue": [
+        { "title": "Opinion, Reason, and Example", "taskType": "Task 2", "skill": "Reason + Example Paragraph", "topic": "children and screen time", "notes": "Extend opinion + reason (because) with a simple example using 'for example'." }
+      ]
     },
     "A2": {
-      "nextUnitNumber": 7,
-      "queue": []
+      "nextUnitNumber": 8,
+      "queue": [
+        { "title": "Simple Overview Sentence", "taskType": "Task 1", "skill": "Overview (Intro)", "topic": "public transport", "notes": "Write one sentence naming the single biggest pattern in the data before any detail." }
+      ]
     },
     "B1": {
-      "nextUnitNumber": 7,
-      "queue": []
+      "nextUnitNumber": 8,
+      "queue": [
+        { "title": "Comparing Four Categories", "taskType": "Task 1", "skill": "Multi-Category Comparison", "topic": "books and videos", "notes": "Describe four categories using ranking and contrast language together." }
+      ]
     },
     "B2": {
-      "nextUnitNumber": 7,
-      "queue": []
+      "nextUnitNumber": 8,
+      "queue": [
+        { "title": "Line Graph Fluctuation", "taskType": "Task 1", "skill": "Fluctuation Description", "topic": "environment", "notes": "Use 'fluctuated', 'peaked at', and 'levelled off' to describe an irregular trend." }
+      ]
     },
     "C1": {
-      "nextUnitNumber": 7,
-      "queue": []
+      "nextUnitNumber": 8,
+      "queue": [
+        { "title": "Table and Chart Synthesis", "taskType": "Task 1", "skill": "Two-Format Data Synthesis", "topic": "studying abroad", "notes": "Combine a table and a described trend into one coherent synthesis paragraph." }
+      ]
     },
     "C2": {
-      "nextUnitNumber": 7,
-      "queue": []
+      "nextUnitNumber": 8,
+      "queue": [
+        { "title": "Complex Multi-Variable Report", "taskType": "Task 1", "skill": "Multi-Variable Synthesis (Complex)", "topic": "children and screen time", "notes": "Report on four or more categories with irregular, non-uniform trends using highly precise comparative language." }
+      ]
     }
   }
 }

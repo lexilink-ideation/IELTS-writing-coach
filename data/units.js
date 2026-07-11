@@ -86,6 +86,16 @@ const IELTS_UNITS = [
     description: "Write an opinion sentence plus one supporting sentence using \"because\" or \"and\".",
     href: "units/a1-unit7-task2-paragraph-intro.html"
   },
+  {
+    id: "a1-unit8-task1-highest-category",
+    level: "A1",
+    unitNumber: 8,
+    title: "Naming the Highest Category",
+    taskType: "Task 1",
+    skill: "Highest Item (Simple)",
+    description: "Name the option with the highest number in one short sentence using \"the most popular is\".",
+    href: "units/a1-unit8-task1-highest-category.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -147,6 +157,16 @@ const IELTS_UNITS = [
     skill: "Change Description",
     description: "Use \"increased\", \"decreased\", and \"stayed the same\" together across a small table.",
     href: "units/a2-unit6-task1-change-description.html"
+  },
+  {
+    id: "a2-unit7-task2-reason-example-sequencing",
+    level: "A2",
+    unitNumber: 7,
+    title: "Two Reasons with an Example",
+    taskType: "Task 2",
+    skill: "Reason Sequencing + Example",
+    description: "Combine \"firstly\"/\"secondly\" reasons with a \"for example\" detail after the second reason.",
+    href: "units/a2-unit7-task2-reason-example-sequencing.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -210,6 +230,16 @@ const IELTS_UNITS = [
     description: "Describe 2-3 steps in order using \"first\", \"next\", and \"finally\".",
     href: "units/b1-unit6-task1-process-description.html"
   },
+  {
+    id: "b1-unit7-task2-both-views-full",
+    level: "B1",
+    unitNumber: 7,
+    title: "Both Views Plus Opinion",
+    taskType: "Task 2",
+    skill: "Balanced Viewpoint (Full)",
+    description: "Extend the both-views intro into a full paragraph: view one, view two, then your opinion with a reason.",
+    href: "units/b1-unit7-task2-both-views-full.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -271,6 +301,16 @@ const IELTS_UNITS = [
     skill: "Proportion Description",
     description: "Use \"a quarter of\", \"nearly half\", and \"the majority\" to describe pie chart data.",
     href: "units/b2-unit6-task1-proportion-description.html"
+  },
+  {
+    id: "b2-unit7-task2-problem-solution-full",
+    level: "B2",
+    unitNumber: 7,
+    title: "Problem-Solution Essay (Full)",
+    taskType: "Task 2",
+    skill: "Problem-Solution Structure (Full)",
+    description: "Extend the problem-solution intro into a full paragraph with two solutions, each linked to its own result.",
+    href: "units/b2-unit7-task2-problem-solution-full.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -334,6 +374,16 @@ const IELTS_UNITS = [
     description: "Describe spatial change on a campus map using directional language and precise change verbs.",
     href: "units/c1-unit6-task1-map-diagram-change.html"
   },
+  {
+    id: "c1-unit7-task2-concession-rebuttal",
+    level: "C1",
+    unitNumber: 7,
+    title: "Counter-Argument with Concession",
+    taskType: "Task 2",
+    skill: "Concession and Rebuttal",
+    description: "Use \"while it is true that\" to concede a point fully before rebutting it and stating a broader implication.",
+    href: "units/c1-unit7-task2-concession-rebuttal.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -395,6 +445,16 @@ const IELTS_UNITS = [
     skill: "Full Task 1 Report",
     description: "Combine an overview, full trend description, and explicit comparison into one complete four-year report.",
     href: "units/c2-unit6-task1-comprehensive-report.html"
+  },
+  {
+    id: "c2-unit7-task2-dialectical-synthesis",
+    level: "C2",
+    unitNumber: 7,
+    title: "Dialectical Synthesis Essay",
+    taskType: "Task 2",
+    skill: "Thesis-Antithesis-Synthesis",
+    description: "Structure the essay as thesis, antithesis, and a synthesised resolution that transcends both positions.",
+    href: "units/c2-unit7-task2-dialectical-synthesis.html"
   }
 ];
 
