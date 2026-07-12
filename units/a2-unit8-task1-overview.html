@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A2 Unit 8 — Simple Overview Sentence | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A2</span>
+    <span class="unit-pill unit-pill-task">Task 1</span>
+  </div>
+  <h1 class="unit-page-title">Unit 8: Simple Overview Sentence</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 1 — Overview (Intro)</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>Before you describe any small detail, write <strong>one sentence</strong> that names the single biggest pattern in the data. This is called the <strong>overview</strong>, and it is the most important sentence in any Task 1 report.</p>
+    <div class="pattern-box">Overall, ___ (category) was the most popular ___ (thing).</div>
+    <p>Do not list every number in your overview — just name the one biggest pattern you can see.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (favourite school subjects) so you can see the pattern — then apply it to the new data below.</p>
+    <ul class="model-sentence-list">
+      <li>Overall, maths was the most popular subject among the students surveyed.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gap using the data in the table below (not the model sentence above):</p>
+    <div class="pattern-box">Overall, ___ (the mode with the highest percentage) was the most popular way for commuters to travel.</div>
+    <p class="hint">Now write your own overview sentence in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: The table below shows how commuters travel to work. Write ONE overview sentence naming the biggest pattern — do not describe every number.</div>
+    <div class="data-box">
+      <p class="data-box-title">Data: Public Transport Usage (%)</p>
+      <table class="data-table">
+        <tr><th>Mode</th><th>Percentage</th></tr>
+        <tr><td>Bus</td><td>45</td></tr>
+        <tr><td>Train</td><td>30</td></tr>
+        <tr><td>Car</td><td>25</td></tr>
+      </table>
+    </div>
+    <p class="hint">Look at the table. Now write ONE overview sentence naming the biggest pattern — don't copy the lesson example.</p>
+    <textarea id="writingBox" placeholder="Write your overview sentence starting with 'Overall,'..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I started with "Overall" or "In general".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I named the bus as the most popular mode of transport.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I wrote only ONE sentence, not a full description of every number.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a2-unit8-task1-overview",
+    minWords: 10,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "\"Overall\" or \"In general\" to open the overview", words: ["overall", "in general"] },
+      { label: "the correct highest category (\"bus\")", words: ["bus"] },
+      { label: "a summarising phrase like \"most popular\" or \"most common\"", words: ["most popular", "most common", "the highest"] }
+    ],
+    linkingWords: ["clearly", "by far"],
+    modelAnswer: "Overall, the bus was by far the most popular way for commuters to travel to work.",
+    skillConnection: "Task 1: opening every report with one overview sentence naming the single biggest pattern — before any specific numbers — is the most important sentence an examiner looks for.",
+    nextChallenge: "Try adding one number to your overview sentence, e.g. \"at 45%\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

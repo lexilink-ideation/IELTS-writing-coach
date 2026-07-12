@@ -3,9 +3,8 @@
   "_needsMoreRoadmap": false,
   "levels": {
     "A1": {
-      "nextUnitNumber": 9,
+      "nextUnitNumber": 10,
       "queue": [
-        { "title": "Opinion, Reason, and Example", "taskType": "Task 2", "skill": "Reason + Example Paragraph", "topic": "children and screen time", "notes": "Extend opinion + reason (because) with a simple example using 'for example'." },
         { "title": "One Slice of a Pie Chart", "taskType": "Task 1", "skill": "Pie Chart Basics", "topic": "children and screen time", "notes": "Introduce 'accounts for' as a simple sentence starter for one pie slice, e.g. 'Games accounts for 50%.' This is the first building block of the real pie-chart phrase bank (accounts for / comprises of / represents) taught at higher levels." },
         { "title": "One Advantage, No Opinion", "taskType": "Task 2", "skill": "Advantage Statement (Simple)", "topic": "online classes", "notes": "Practice a bare 'one advantage is that...' sentence with zero personal opinion, mirroring the real Advantages & Disadvantages essay type (Type 1), which explicitly forbids stating your own view." },
         { "title": "One Stage of a Process", "taskType": "Task 1", "skill": "Process Basics", "topic": "books and videos", "notes": "Write one simple sentence naming a single stage of a short process (e.g. a simplified book-publishing step), bridging the existing A1 'first/next/finally' pattern toward Task 1 process diagrams." },
@@ -13,9 +12,8 @@
       ]
     },
     "A2": {
-      "nextUnitNumber": 8,
+      "nextUnitNumber": 9,
       "queue": [
-        { "title": "Simple Overview Sentence", "taskType": "Task 1", "skill": "Overview (Intro)", "topic": "public transport", "notes": "Write one sentence naming the single biggest pattern in the data before any detail. The overview is repeatedly flagged across the real Task 1 decks as the single most important sentence in any report." },
         { "title": "Two Advantages, No Opinion", "taskType": "Task 2", "skill": "Advantages List (Simple)", "topic": "AI and homework", "notes": "List two advantages using 'firstly'/'secondly' with zero personal opinion, extending the A1 'one advantage' unit toward the real Advantages-Only essay type (Type 1)." },
         { "title": "A Pie Chart with Two Slices", "taskType": "Task 1", "skill": "Pie Chart Two-Part", "topic": "environment", "notes": "Describe two slices of a pie chart using 'accounts for' and 'represents', building out the real pie-chart vocabulary bank." },
         { "title": "What Happens Next? (Two-Step Process)", "taskType": "Task 1", "skill": "Process Basics (Two Steps)", "topic": "studying abroad", "notes": "Describe two stages of a simplified process (e.g. applying for a study visa) using 'then' and 'after that', a stepping stone toward full first/next/finally sequencing already covered at B1." },
@@ -23,19 +21,17 @@
       ]
     },
     "B1": {
-      "nextUnitNumber": 8,
+      "nextUnitNumber": 9,
       "queue": [
         { "title": "Comparing Four Categories", "taskType": "Task 1", "skill": "Multi-Category Comparison", "topic": "books and videos", "notes": "Describe four categories using ranking and contrast language together." },
-        { "title": "Advantages and Disadvantages, No Opinion", "taskType": "Task 2", "skill": "Pure Advantages & Disadvantages (Type 1)", "topic": "work and automation", "notes": "Write a balanced paragraph stating one advantage and one disadvantage with zero personal opinion, matching the real Essay Type 1: Advantages & Disadvantages, which explicitly forbids stating your own view — a distinction students often get wrong." },
         { "title": "Table Report: Intro Plus Overview", "taskType": "Task 1", "skill": "Table Report Structure", "topic": "cities and countryside", "notes": "Practice the intro-then-overview opening of a full table report, grouping small figures together rather than listing every number, per the real table-writing strategy deck (group categories under 5% together; single out any unusually high figure)." },
         { "title": "Positive or Negative Development (Full)", "taskType": "Task 2", "skill": "Direct Question (Development, Full)", "topic": "children and screen time", "notes": "Answer a 'positive or negative development' direct question in a full paragraph with a clear stance and supporting reason, matching real Direct Question Essay Type 2." },
         { "title": "A Cycle in Order", "taskType": "Task 1", "skill": "Process (Cycle Type)", "topic": "environment", "notes": "Describe a natural cycle (not a man-made process) using sequencing language, introducing the real distinction between the two process-diagram subtypes: cycles vs man-made processes." }
       ]
     },
     "B2": {
-      "nextUnitNumber": 8,
+      "nextUnitNumber": 9,
       "queue": [
-        { "title": "Line Graph Fluctuation", "taskType": "Task 1", "skill": "Fluctuation Description", "topic": "environment", "notes": "Use 'fluctuated', 'peaked at', and 'levelled off' to describe an irregular trend. Also apply the real line-graph rule of writing 'about' or 'approximately' whenever a figure is not precisely certain." },
         { "title": "Advantages Outweigh Disadvantages", "taskType": "Task 2", "skill": "Weighing Essay (Type 2)", "topic": "AI and homework", "notes": "State both an advantage and a disadvantage, then explicitly argue which outweighs the other with a reason, matching real Essay Type 2: Do Advantages Outweigh Disadvantages? — which requires a clear opinion, unlike the no-opinion Type 1 covered at B1." },
         { "title": "Pie Charts: Two Time Periods", "taskType": "Task 1", "skill": "Pie Chart Comparison", "topic": "environment", "notes": "Compare two pie charts from different years, highlighting the key changes between them rather than describing each chart separately, per the real pie-chart deck's guidance on charts showing change over time." },
         { "title": "Cause, Then Solution", "taskType": "Task 2", "skill": "Cause-Solution Essay", "topic": "cities and countryside", "notes": "Answer both parts of a real Cause-Solution prompt (e.g. rising urban populations): state the causes of a problem, then propose solutions, keeping the two clearly separate as the deck instructs." },
@@ -43,9 +39,8 @@
       ]
     },
     "C1": {
-      "nextUnitNumber": 8,
+      "nextUnitNumber": 9,
       "queue": [
-        { "title": "Table and Chart Synthesis", "taskType": "Task 1", "skill": "Two-Format Data Synthesis", "topic": "studying abroad", "notes": "Combine a table and a described trend into one coherent synthesis paragraph." },
         { "title": "Problem, Not Cause: A Different Essay Type", "taskType": "Task 2", "skill": "Problem-Solution Essay", "topic": "work and automation", "notes": "Distinguish a Problem-Solution prompt (what problems does X cause, and what is the answer) from a Cause-Solution prompt (why is X happening, and what solutions exist) — a distinction the real deck flags as frequently confused by students." },
         { "title": "Map Report: Choosing the Right Tense", "taskType": "Task 1", "skill": "Map Tense Rules", "topic": "cities and countryside", "notes": "Apply the real tense rules for map reports: past tense for past maps, future forms for future plans, and mixed tenses plus passive voice when comparing both, e.g. 'the office was located... but will be moved...'." },
         { "title": "Two Questions: Reasons and Opinion", "taskType": "Task 2", "skill": "Direct Question (Two-Part)", "topic": "books and videos", "notes": "Answer a real two-question Direct Question prompt — first the reasons behind a trend, then your opinion on it — keeping the two answers clearly separate, matching Direct Question Essay Type 3." },
@@ -53,9 +48,8 @@
       ]
     },
     "C2": {
-      "nextUnitNumber": 8,
+      "nextUnitNumber": 9,
       "queue": [
-        { "title": "Complex Multi-Variable Report", "taskType": "Task 1", "skill": "Multi-Variable Synthesis (Complex)", "topic": "children and screen time", "notes": "Report on four or more categories with irregular, non-uniform trends using highly precise comparative language." },
         { "title": "Partial Agreement", "taskType": "Task 2", "skill": "Nuanced Opinion Essay", "topic": "AI and homework", "notes": "Write a partial-agreement response: agree that a given solution helps, but argue a different solution is more effective, matching the real Opinion Essay deck's guidance that partial agreement is a legitimate, sometimes stronger, IELTS strategy." },
         { "title": "Three Questions in One Essay", "taskType": "Task 2", "skill": "Direct Question (Three-Part)", "topic": "old people and technology", "notes": "Answer a real three-question Direct Question prompt fully and separately — the most demanding Direct Question subtype in the curriculum (Essay Type 4)." },
         { "title": "Full Table Report: Selectivity Under Pressure", "taskType": "Task 1", "skill": "Table Report (Full, Selective)", "topic": "public transport", "notes": "Write a complete table report demonstrating selective grouping and avoidance of over-paraphrasing, per the real table deck's warning against 'risky paraphrasing' (changing words you're not confident about)." },

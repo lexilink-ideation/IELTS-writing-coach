@@ -96,6 +96,16 @@ const IELTS_UNITS = [
     description: "Name the option with the highest number in one short sentence using \"the most popular is\".",
     href: "units/a1-unit8-task1-highest-category.html"
   },
+  {
+    id: "a1-unit9-task2-reason-example",
+    level: "A1",
+    unitNumber: 9,
+    title: "Opinion, Reason, and Example",
+    taskType: "Task 2",
+    skill: "Reason + Example Paragraph",
+    description: "Extend an opinion and reason with a simple example using \"for example\".",
+    href: "units/a1-unit9-task2-reason-example.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -167,6 +177,16 @@ const IELTS_UNITS = [
     skill: "Reason Sequencing + Example",
     description: "Combine \"firstly\"/\"secondly\" reasons with a \"for example\" detail after the second reason.",
     href: "units/a2-unit7-task2-reason-example-sequencing.html"
+  },
+  {
+    id: "a2-unit8-task1-overview",
+    level: "A2",
+    unitNumber: 8,
+    title: "Simple Overview Sentence",
+    taskType: "Task 1",
+    skill: "Overview (Intro)",
+    description: "Write one sentence naming the single biggest pattern in the data before any detail.",
+    href: "units/a2-unit8-task1-overview.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -240,6 +260,16 @@ const IELTS_UNITS = [
     description: "Extend the both-views intro into a full paragraph: view one, view two, then your opinion with a reason.",
     href: "units/b1-unit7-task2-both-views-full.html"
   },
+  {
+    id: "b1-unit8-task2-adv-disadv-no-opinion",
+    level: "B1",
+    unitNumber: 8,
+    title: "Advantages and Disadvantages, No Opinion",
+    taskType: "Task 2",
+    skill: "Pure Advantages & Disadvantages (Type 1)",
+    description: "Write a balanced paragraph stating one advantage and one disadvantage with zero personal opinion.",
+    href: "units/b1-unit8-task2-adv-disadv-no-opinion.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -311,6 +341,16 @@ const IELTS_UNITS = [
     skill: "Problem-Solution Structure (Full)",
     description: "Extend the problem-solution intro into a full paragraph with two solutions, each linked to its own result.",
     href: "units/b2-unit7-task2-problem-solution-full.html"
+  },
+  {
+    id: "b2-unit8-task1-fluctuation",
+    level: "B2",
+    unitNumber: 8,
+    title: "Line Graph Fluctuation",
+    taskType: "Task 1",
+    skill: "Fluctuation Description",
+    description: "Use \"fluctuated\", \"peaked at\", and \"levelled off\" to describe an irregular trend.",
+    href: "units/b2-unit8-task1-fluctuation.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -384,6 +424,16 @@ const IELTS_UNITS = [
     description: "Use \"while it is true that\" to concede a point fully before rebutting it and stating a broader implication.",
     href: "units/c1-unit7-task2-concession-rebuttal.html"
   },
+  {
+    id: "c1-unit8-task1-table-chart-synthesis",
+    level: "C1",
+    unitNumber: 8,
+    title: "Table and Chart Synthesis",
+    taskType: "Task 1",
+    skill: "Two-Format Data Synthesis",
+    description: "Combine a table and a described trend into one coherent synthesis paragraph.",
+    href: "units/c1-unit8-task1-table-chart-synthesis.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -455,6 +505,16 @@ const IELTS_UNITS = [
     skill: "Thesis-Antithesis-Synthesis",
     description: "Structure the essay as thesis, antithesis, and a synthesised resolution that transcends both positions.",
     href: "units/c2-unit7-task2-dialectical-synthesis.html"
+  },
+  {
+    id: "c2-unit8-task1-multi-variable-report",
+    level: "C2",
+    unitNumber: 8,
+    title: "Complex Multi-Variable Report",
+    taskType: "Task 1",
+    skill: "Multi-Variable Synthesis (Complex)",
+    description: "Report on four or more categories with irregular, non-uniform trends using highly precise comparative language.",
+    href: "units/c2-unit8-task1-multi-variable-report.html"
   }
 ];
 

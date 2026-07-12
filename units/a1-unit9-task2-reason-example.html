@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 9 — Opinion, Reason, and Example | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 9: Opinion, Reason, and Example</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Reason + Example Paragraph</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>You already know how to give an opinion with "because". Now add one more part: a short <strong>example</strong> that shows your reason is true. Use the phrase:</p>
+    <div class="pattern-box">for example</div>
+    <p>Opinion + reason + example is three short sentences that work together — this is the building block of a full IELTS paragraph.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">These examples use a different topic (public transport) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>I think public transport is good. Because it reduces traffic. For example, one bus can carry forty people to work.</li>
+      <li>I believe public transport is cheap. Because tickets cost less than fuel. For example, a bus ticket can cost only two dollars.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model sentences above):</p>
+    <div class="pattern-box">___ (I think / I believe) children should / should not use tablets at school. Because ___ (reason). For example, ___ (example).</div>
+    <p class="hint">Now write all three sentences yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Do you think children should use tablets to learn at school?</div>
+    <textarea id="writingBox" placeholder="Write your opinion sentence, then Because..., then For example..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My first sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>Every sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "I think" / "I believe" for my opinion.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "Because" to give a reason.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "For example" to give a real example.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My paragraph is about tablets or screens at school.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit9-task2-reason-example",
+    minWords: 16,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    opinionPhrases: ["i think", "i believe", "in my opinion"],
+    keywordGroups: [
+      { label: "the word \"because\" to give a reason", words: ["because"] },
+      { label: "\"for example\" to give an example", words: ["for example", "for instance"] },
+      { label: "\"tablet\", \"tablets\", or \"screen\"", words: ["tablet", "tablets", "screen", "screens", "technology"] }
+    ],
+    linkingWords: ["also", "and", "but"],
+    modelAnswer: "I think children should use tablets to learn at school. Because tablets make lessons more interesting. For example, students can watch videos about the topic.",
+    skillConnection: "Task 2: adding a concrete example after your reason with \"for example\" moves your opinion from a general claim toward the supported argument structure IELTS examiners look for.",
+    nextChallenge: "Try adding a second reason using \"and\" before your example."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>
