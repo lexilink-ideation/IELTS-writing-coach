@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 10 — One Slice of a Pie Chart | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 1</span>
+  </div>
+  <h1 class="unit-page-title">Unit 10: One Slice of a Pie Chart</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 1 — Pie Chart Basics</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>A pie chart is a circle cut into slices. You can describe one slice with one simple sentence. Use <strong>"accounts for"</strong> to show what percentage a category takes up.</p>
+    <div class="pattern-box">___ (category) accounts for ___% (number).</div>
+    <p>"Accounts for" is the first piece of pie-chart vocabulary — later you will learn more words like "comprises of" and "represents".</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (public transport) so you can see the pattern — then apply it to the new data below.</p>
+    <ul class="model-sentence-list">
+      <li>Buses accounts for 40% of journeys to work.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gap using the data in the pie chart below (not the model sentence above):</p>
+    <div class="pattern-box">___ (activity) accounts for ___% of children's screen time.</div>
+    <p class="hint">Now write your full sentence yourself in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="data-box">
+      <p class="data-box-title">Data: How Children Spend Screen Time (Pie Chart)</p>
+      <table class="data-table">
+        <tr><th>Activity</th><th>Percentage</th></tr>
+        <tr><td>Games</td><td>45%</td></tr>
+        <tr><td>Videos</td><td>30%</td></tr>
+        <tr><td>Social Media</td><td>15%</td></tr>
+        <tr><td>Reading</td><td>10%</td></tr>
+      </table>
+    </div>
+    <p class="hint">Look at the pie chart. Now write one sentence naming the activity with the biggest slice, using "accounts for" — don't copy the lesson example.</p>
+    <textarea id="writingBox" placeholder="Use 'accounts for' to name the activity with the largest percentage..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "accounts for".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I named "games" as the activity.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I included the number 45.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit10-task1-pie-slice",
+    minWords: 8,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "\"accounts for\"", words: ["accounts for"] },
+      { label: "\"games\"", words: ["games"] },
+      { label: "the number \"45\"", words: ["45"] }
+    ],
+    modelAnswer: "Games accounts for 45% of children's screen time.",
+    skillConnection: "Task 1: \"accounts for\" is the first building block of the pie-chart phrase bank (accounts for / comprises of / represents) used to describe proportions in circle charts.",
+    nextChallenge: "Try describing a second slice using \"accounts for\" as well."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

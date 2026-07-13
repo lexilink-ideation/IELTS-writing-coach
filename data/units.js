@@ -106,6 +106,16 @@ const IELTS_UNITS = [
     description: "Extend an opinion and reason with a simple example using \"for example\".",
     href: "units/a1-unit9-task2-reason-example.html"
   },
+  {
+    id: "a1-unit10-task1-pie-slice",
+    level: "A1",
+    unitNumber: 10,
+    title: "One Slice of a Pie Chart",
+    taskType: "Task 1",
+    skill: "Pie Chart Basics",
+    description: "Describe one slice of a pie chart using \"accounts for\" and its percentage.",
+    href: "units/a1-unit10-task1-pie-slice.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -187,6 +197,16 @@ const IELTS_UNITS = [
     skill: "Overview (Intro)",
     description: "Write one sentence naming the single biggest pattern in the data before any detail.",
     href: "units/a2-unit8-task1-overview.html"
+  },
+  {
+    id: "a2-unit9-task2-two-advantages",
+    level: "A2",
+    unitNumber: 9,
+    title: "Two Advantages, No Opinion",
+    taskType: "Task 2",
+    skill: "Advantages List (Simple)",
+    description: "List two advantages using \"firstly\" and \"secondly\" with zero personal opinion.",
+    href: "units/a2-unit9-task2-two-advantages.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -270,6 +290,16 @@ const IELTS_UNITS = [
     description: "Write a balanced paragraph stating one advantage and one disadvantage with zero personal opinion.",
     href: "units/b1-unit8-task2-adv-disadv-no-opinion.html"
   },
+  {
+    id: "b1-unit9-task1-four-category-comparison",
+    level: "B1",
+    unitNumber: 9,
+    title: "Comparing Four Categories",
+    taskType: "Task 1",
+    skill: "Multi-Category Comparison",
+    description: "Rank four categories from highest to lowest, linking at least two with a contrast word.",
+    href: "units/b1-unit9-task1-four-category-comparison.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -351,6 +381,16 @@ const IELTS_UNITS = [
     skill: "Fluctuation Description",
     description: "Use \"fluctuated\", \"peaked at\", and \"levelled off\" to describe an irregular trend.",
     href: "units/b2-unit8-task1-fluctuation.html"
+  },
+  {
+    id: "b2-unit9-task2-advantages-outweigh-disadvantages",
+    level: "B2",
+    unitNumber: 9,
+    title: "Advantages Outweigh Disadvantages",
+    taskType: "Task 2",
+    skill: "Weighing Essay (Type 2)",
+    description: "State an advantage and a disadvantage, then explicitly argue which outweighs the other with a reason.",
+    href: "units/b2-unit9-task2-advantages-outweigh-disadvantages.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -434,6 +474,16 @@ const IELTS_UNITS = [
     description: "Combine a table and a described trend into one coherent synthesis paragraph.",
     href: "units/c1-unit8-task1-table-chart-synthesis.html"
   },
+  {
+    id: "c1-unit9-task2-problem-solution-essay",
+    level: "C1",
+    unitNumber: 9,
+    title: "Problem, Not Cause: A Different Essay Type",
+    taskType: "Task 2",
+    skill: "Problem-Solution Essay",
+    description: "Distinguish a Problem-Solution prompt (what problems result, and how to address them) from a Cause-Solution prompt.",
+    href: "units/c1-unit9-task2-problem-solution-essay.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -515,6 +565,16 @@ const IELTS_UNITS = [
     skill: "Multi-Variable Synthesis (Complex)",
     description: "Report on four or more categories with irregular, non-uniform trends using highly precise comparative language.",
     href: "units/c2-unit8-task1-multi-variable-report.html"
+  },
+  {
+    id: "c2-unit9-task2-partial-agreement",
+    level: "C2",
+    unitNumber: 9,
+    title: "Partial Agreement",
+    taskType: "Task 2",
+    skill: "Nuanced Opinion Essay",
+    description: "Concede genuine merit in a proposed solution before arguing that a different solution is more effective.",
+    href: "units/c2-unit9-task2-partial-agreement.html"
   }
 ];
 
