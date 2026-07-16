@@ -3,49 +3,43 @@
   "_needsMoreRoadmap": false,
   "levels": {
     "A1": {
-      "nextUnitNumber": 11,
+      "nextUnitNumber": 12,
       "queue": [
-        { "title": "One Advantage, No Opinion", "taskType": "Task 2", "skill": "Advantage Statement (Simple)", "topic": "online classes", "notes": "Practice a bare 'one advantage is that...' sentence with zero personal opinion, mirroring the real Advantages & Disadvantages essay type (Type 1), which explicitly forbids stating your own view." },
         { "title": "One Stage of a Process", "taskType": "Task 1", "skill": "Process Basics", "topic": "books and videos", "notes": "Write one simple sentence naming a single stage of a short process (e.g. a simplified book-publishing step), bridging the existing A1 'first/next/finally' pattern toward Task 1 process diagrams." },
         { "title": "Yes or No, One Reason", "taskType": "Task 2", "skill": "Direct Question Basics", "topic": "public transport", "notes": "Answer a simple yes/no direct question with one opinion sentence plus one reason, distinguishing a Direct Question response from a full opinion-essay paragraph." }
       ]
     },
     "A2": {
-      "nextUnitNumber": 10,
+      "nextUnitNumber": 11,
       "queue": [
-        { "title": "A Pie Chart with Two Slices", "taskType": "Task 1", "skill": "Pie Chart Two-Part", "topic": "environment", "notes": "Describe two slices of a pie chart using 'accounts for' and 'represents', building out the real pie-chart vocabulary bank." },
         { "title": "What Happens Next? (Two-Step Process)", "taskType": "Task 1", "skill": "Process Basics (Two Steps)", "topic": "studying abroad", "notes": "Describe two stages of a simplified process (e.g. applying for a study visa) using 'then' and 'after that', a stepping stone toward full first/next/finally sequencing already covered at B1." },
         { "title": "Positive or Negative? One Paragraph", "taskType": "Task 2", "skill": "Direct Question (Development)", "topic": "old people and technology", "notes": "Answer a 'positive or negative development' direct question (the real Direct Question Essay Type 2) with an opinion and one reason." }
       ]
     },
     "B1": {
-      "nextUnitNumber": 10,
+      "nextUnitNumber": 11,
       "queue": [
-        { "title": "Table Report: Intro Plus Overview", "taskType": "Task 1", "skill": "Table Report Structure", "topic": "cities and countryside", "notes": "Practice the intro-then-overview opening of a full table report, grouping small figures together rather than listing every number, per the real table-writing strategy deck (group categories under 5% together; single out any unusually high figure)." },
         { "title": "Positive or Negative Development (Full)", "taskType": "Task 2", "skill": "Direct Question (Development, Full)", "topic": "children and screen time", "notes": "Answer a 'positive or negative development' direct question in a full paragraph with a clear stance and supporting reason, matching real Direct Question Essay Type 2." },
         { "title": "A Cycle in Order", "taskType": "Task 1", "skill": "Process (Cycle Type)", "topic": "environment", "notes": "Describe a natural cycle (not a man-made process) using sequencing language, introducing the real distinction between the two process-diagram subtypes: cycles vs man-made processes." }
       ]
     },
     "B2": {
-      "nextUnitNumber": 10,
+      "nextUnitNumber": 11,
       "queue": [
-        { "title": "Pie Charts: Two Time Periods", "taskType": "Task 1", "skill": "Pie Chart Comparison", "topic": "environment", "notes": "Compare two pie charts from different years, highlighting the key changes between them rather than describing each chart separately, per the real pie-chart deck's guidance on charts showing change over time." },
         { "title": "Cause, Then Solution", "taskType": "Task 2", "skill": "Cause-Solution Essay", "topic": "cities and countryside", "notes": "Answer both parts of a real Cause-Solution prompt (e.g. rising urban populations): state the causes of a problem, then propose solutions, keeping the two clearly separate as the deck instructs." },
         { "title": "Table Report: Grouping Small Numbers", "taskType": "Task 1", "skill": "Table Selectivity", "topic": "studying abroad", "notes": "Practice grouping several small percentages into one summarising phrase instead of listing each one, and singling out any unusually high figure, per the real table-strategy deck." }
       ]
     },
     "C1": {
-      "nextUnitNumber": 10,
+      "nextUnitNumber": 11,
       "queue": [
-        { "title": "Map Report: Choosing the Right Tense", "taskType": "Task 1", "skill": "Map Tense Rules", "topic": "cities and countryside", "notes": "Apply the real tense rules for map reports: past tense for past maps, future forms for future plans, and mixed tenses plus passive voice when comparing both, e.g. 'the office was located... but will be moved...'." },
         { "title": "Two Questions: Reasons and Opinion", "taskType": "Task 2", "skill": "Direct Question (Two-Part)", "topic": "books and videos", "notes": "Answer a real two-question Direct Question prompt — first the reasons behind a trend, then your opinion on it — keeping the two answers clearly separate, matching Direct Question Essay Type 3." },
         { "title": "A Man-Made Process, Passive Voice", "taskType": "Task 1", "skill": "Process (Man-Made Type)", "topic": "environment", "notes": "Describe a manufacturing-style process using the passive voice throughout, distinguishing this real process subtype from the natural-cycle subtype covered at B1." }
       ]
     },
     "C2": {
-      "nextUnitNumber": 10,
+      "nextUnitNumber": 11,
       "queue": [
-        { "title": "Three Questions in One Essay", "taskType": "Task 2", "skill": "Direct Question (Three-Part)", "topic": "old people and technology", "notes": "Answer a real three-question Direct Question prompt fully and separately — the most demanding Direct Question subtype in the curriculum (Essay Type 4)." },
         { "title": "Full Table Report: Selectivity Under Pressure", "taskType": "Task 1", "skill": "Table Report (Full, Selective)", "topic": "public transport", "notes": "Write a complete table report demonstrating selective grouping and avoidance of over-paraphrasing, per the real table deck's warning against 'risky paraphrasing' (changing words you're not confident about)." },
         { "title": "Advantages, Disadvantages, and a Verdict", "taskType": "Task 2", "skill": "Full Weighing Essay", "topic": "cities and countryside", "notes": "Write a complete advantages-disadvantages paragraph that both weighs which side is stronger (Type 2) and closes with a clearly justified verdict, synthesising both real essay subtypes into one response." }
       ]

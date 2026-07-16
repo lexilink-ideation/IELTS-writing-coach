@@ -116,6 +116,16 @@ const IELTS_UNITS = [
     description: "Describe one slice of a pie chart using \"accounts for\" and its percentage.",
     href: "units/a1-unit10-task1-pie-slice.html"
   },
+  {
+    id: "a1-unit11-task2-advantage-simple",
+    level: "A1",
+    unitNumber: 11,
+    title: "One Advantage, No Opinion",
+    taskType: "Task 2",
+    skill: "Advantage Statement (Simple)",
+    description: "Write a bare \"one advantage is that...\" sentence with zero personal opinion.",
+    href: "units/a1-unit11-task2-advantage-simple.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -207,6 +217,16 @@ const IELTS_UNITS = [
     skill: "Advantages List (Simple)",
     description: "List two advantages using \"firstly\" and \"secondly\" with zero personal opinion.",
     href: "units/a2-unit9-task2-two-advantages.html"
+  },
+  {
+    id: "a2-unit10-task1-pie-two-slices",
+    level: "A2",
+    unitNumber: 10,
+    title: "A Pie Chart with Two Slices",
+    taskType: "Task 1",
+    skill: "Pie Chart Two-Part",
+    description: "Describe two slices of a pie chart using \"accounts for\" and \"represents\".",
+    href: "units/a2-unit10-task1-pie-two-slices.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -300,6 +320,16 @@ const IELTS_UNITS = [
     description: "Rank four categories from highest to lowest, linking at least two with a contrast word.",
     href: "units/b1-unit9-task1-four-category-comparison.html"
   },
+  {
+    id: "b1-unit10-task1-table-intro-overview",
+    level: "B1",
+    unitNumber: 10,
+    title: "Table Report: Intro Plus Overview",
+    taskType: "Task 1",
+    skill: "Table Report Structure",
+    description: "Open a full table report with an introduction sentence plus an overview that groups small figures together.",
+    href: "units/b1-unit10-task1-table-intro-overview.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -391,6 +421,16 @@ const IELTS_UNITS = [
     skill: "Weighing Essay (Type 2)",
     description: "State an advantage and a disadvantage, then explicitly argue which outweighs the other with a reason.",
     href: "units/b2-unit9-task2-advantages-outweigh-disadvantages.html"
+  },
+  {
+    id: "b2-unit10-task1-pie-two-periods",
+    level: "B2",
+    unitNumber: 10,
+    title: "Pie Charts: Two Time Periods",
+    taskType: "Task 1",
+    skill: "Pie Chart Comparison",
+    description: "Compare two pie charts from different years, highlighting the key changes rather than describing each separately.",
+    href: "units/b2-unit10-task1-pie-two-periods.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -484,6 +524,16 @@ const IELTS_UNITS = [
     description: "Distinguish a Problem-Solution prompt (what problems result, and how to address them) from a Cause-Solution prompt.",
     href: "units/c1-unit9-task2-problem-solution-essay.html"
   },
+  {
+    id: "c1-unit10-task1-map-tense-rules",
+    level: "C1",
+    unitNumber: 10,
+    title: "Map Report: Choosing the Right Tense",
+    taskType: "Task 1",
+    skill: "Map Tense Rules",
+    description: "Mix past tense and future passive forms to compare a map's current layout with its planned future.",
+    href: "units/c1-unit10-task1-map-tense-rules.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -575,6 +625,16 @@ const IELTS_UNITS = [
     skill: "Nuanced Opinion Essay",
     description: "Concede genuine merit in a proposed solution before arguing that a different solution is more effective.",
     href: "units/c2-unit9-task2-partial-agreement.html"
+  },
+  {
+    id: "c2-unit10-task2-three-questions",
+    level: "C2",
+    unitNumber: 10,
+    title: "Three Questions in One Essay",
+    taskType: "Task 2",
+    skill: "Direct Question (Three-Part)",
+    description: "Answer a real three-question Direct Question prompt fully and separately — the most demanding subtype in the curriculum.",
+    href: "units/c2-unit10-task2-three-questions.html"
   }
 ];
 

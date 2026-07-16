@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 11 — One Advantage, No Opinion | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 11: One Advantage, No Opinion</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Advantage Statement (Simple)</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>Not every Task 2 sentence needs "I think". Some essays only ask you to state a fact — <strong>zero personal opinion</strong>. Practice this bare pattern:</p>
+    <div class="pattern-box">One advantage of ___ (topic) is that ___ (benefit).</div>
+    <p>No "I think", no "I believe" — just a plain, factual advantage. This is the building block of essays that must stay neutral.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (audiobooks) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>One advantage of audiobooks is that people can listen while doing other things.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gap using the topic below (not the model sentence above):</p>
+    <div class="pattern-box">One advantage of ___ (online classes) is that ___ (benefit).</div>
+    <p class="hint">Now write your full sentence yourself in the writing box below. Remember: no "I think" or "I believe".</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Write ONE sentence stating an advantage of online classes. Do NOT give your personal opinion — just state the fact.</div>
+    <textarea id="writingBox" placeholder="One advantage of online classes is that..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "One advantage" or "An advantage".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence is about online classes or online learning.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I did NOT use "I think" or "I believe" — this sentence has no personal opinion.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit11-task2-advantage-simple",
+    minWords: 9,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "\"one advantage\" or \"an advantage\"", words: ["one advantage", "an advantage"] },
+      { label: "\"is that\" to introduce the benefit", words: ["is that"] },
+      { label: "\"online classes\" or \"online learning\"", words: ["online classes", "online learning", "online class", "online lessons"] }
+    ],
+    modelAnswer: "One advantage of online classes is that students can learn from home.",
+    skillConnection: "Task 2: some Advantages & Disadvantages prompts (Type 1) forbid stating a personal opinion — practicing a bare \"one advantage is that...\" sentence builds the neutral, factual register that essay type requires.",
+    nextChallenge: "Try adding a second advantage using \"Another advantage is that...\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>
