@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 12 — One Stage of a Process | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 1</span>
+  </div>
+  <h1 class="unit-page-title">Unit 12: One Stage of a Process</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 1 — Process Basics</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>Some Task 1 diagrams show a process with several stages. Before describing a whole process, practice naming just <strong>one</strong> stage in one simple sentence. Use the word <strong>"First,"</strong> to show it is the very first stage.</p>
+    <div class="pattern-box">First, ___ (who) ___ (what happens at stage 1).</div>
+    <p>One clear sentence about one stage is the first building block of a full process description.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">This example uses a different topic (making a cup of tea) so you can see the pattern — then apply it to the new process below.</p>
+    <ul class="model-sentence-list">
+      <li>First, you boil water in a kettle.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gap using the steps in the table below (not the model sentence above):</p>
+    <div class="pattern-box">First, the ___ (author) ___ (writes the manuscript).</div>
+    <p class="hint">Now write your own sentence about stage 1 only in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: The table below shows the stages of how a book is made. Write ONE sentence naming only the FIRST stage. Start your sentence with "First,".</div>
+    <div class="data-box">
+      <p class="data-box-title">Steps: How a Book Is Made</p>
+      <table class="data-table">
+        <tr><th>Step</th><th>What Happens</th></tr>
+        <tr><td>1</td><td>The author writes the manuscript</td></tr>
+        <tr><td>2</td><td>The publisher edits and prints the book</td></tr>
+        <tr><td>3</td><td>Bookshops sell the finished book to readers</td></tr>
+      </table>
+    </div>
+    <p class="hint">Look at Step 1 only. Now write one sentence about it — don't copy the lesson example.</p>
+    <textarea id="writingBox" placeholder="First, the author..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with "First,".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I mentioned the author writing the manuscript or book.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I only described stage 1 — not stages 2 or 3.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit12-task1-process-stage",
+    minWords: 8,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "\"First,\" to open the sentence", words: ["first"] },
+      { label: "\"author\" or \"writes\"/\"wrote\"", words: ["author", "writes", "wrote", "write"] },
+      { label: "\"manuscript\" or \"book\"", words: ["manuscript", "book"] }
+    ],
+    modelAnswer: "First, the author writes the manuscript for the book.",
+    skillConnection: "Task 1: naming a single stage of a process in one clear sentence is the first step toward describing a full process diagram with 'first', 'next', and 'finally'.",
+    nextChallenge: "Try writing a second sentence about stage 2, starting with \"Next,\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

@@ -126,6 +126,16 @@ const IELTS_UNITS = [
     description: "Write a bare \"one advantage is that...\" sentence with zero personal opinion.",
     href: "units/a1-unit11-task2-advantage-simple.html"
   },
+  {
+    id: "a1-unit12-task1-process-stage",
+    level: "A1",
+    unitNumber: 12,
+    title: "One Stage of a Process",
+    taskType: "Task 1",
+    skill: "Process Basics",
+    description: "Write one simple sentence naming the first stage of a short process using \"First,\".",
+    href: "units/a1-unit12-task1-process-stage.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -227,6 +237,16 @@ const IELTS_UNITS = [
     skill: "Pie Chart Two-Part",
     description: "Describe two slices of a pie chart using \"accounts for\" and \"represents\".",
     href: "units/a2-unit10-task1-pie-two-slices.html"
+  },
+  {
+    id: "a2-unit11-task1-process-two-steps",
+    level: "A2",
+    unitNumber: 11,
+    title: "What Happens Next? (Two-Step Process)",
+    taskType: "Task 1",
+    skill: "Process Basics (Two Steps)",
+    description: "Describe two stages of a process in order using \"First,\" and \"Then, after that,\".",
+    href: "units/a2-unit11-task1-process-two-steps.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -330,6 +350,16 @@ const IELTS_UNITS = [
     description: "Open a full table report with an introduction sentence plus an overview that groups small figures together.",
     href: "units/b1-unit10-task1-table-intro-overview.html"
   },
+  {
+    id: "b1-unit11-task2-direct-question-development",
+    level: "B1",
+    unitNumber: 11,
+    title: "Positive or Negative Development (Full)",
+    taskType: "Task 2",
+    skill: "Direct Question (Development, Full)",
+    description: "Answer a 'positive or negative development' prompt in a full paragraph with a clear stance, reason, and result.",
+    href: "units/b1-unit11-task2-direct-question-development.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -431,6 +461,16 @@ const IELTS_UNITS = [
     skill: "Pie Chart Comparison",
     description: "Compare two pie charts from different years, highlighting the key changes rather than describing each separately.",
     href: "units/b2-unit10-task1-pie-two-periods.html"
+  },
+  {
+    id: "b2-unit11-task2-cause-solution",
+    level: "B2",
+    unitNumber: 11,
+    title: "Cause, Then Solution",
+    taskType: "Task 2",
+    skill: "Cause-Solution Essay",
+    description: "State the causes of a trend, then propose solutions, keeping the two clearly separate.",
+    href: "units/b2-unit11-task2-cause-solution.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -534,6 +574,16 @@ const IELTS_UNITS = [
     description: "Mix past tense and future passive forms to compare a map's current layout with its planned future.",
     href: "units/c1-unit10-task1-map-tense-rules.html"
   },
+  {
+    id: "c1-unit11-task2-direct-question-two-part",
+    level: "C1",
+    unitNumber: 11,
+    title: "Two Questions: Reasons and Opinion",
+    taskType: "Task 2",
+    skill: "Direct Question (Two-Part)",
+    description: "Answer a two-question prompt — first the reasons behind a trend, then your opinion — keeping the two separate.",
+    href: "units/c1-unit11-task2-direct-question-two-part.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -635,6 +685,16 @@ const IELTS_UNITS = [
     skill: "Direct Question (Three-Part)",
     description: "Answer a real three-question Direct Question prompt fully and separately — the most demanding subtype in the curriculum.",
     href: "units/c2-unit10-task2-three-questions.html"
+  },
+  {
+    id: "c2-unit11-task1-table-report-selective",
+    level: "C2",
+    unitNumber: 11,
+    title: "Full Table Report: Selectivity Under Pressure",
+    taskType: "Task 1",
+    skill: "Table Report (Full, Selective)",
+    description: "Write a complete table report demonstrating selective grouping and safe, reliable vocabulary rather than risky paraphrasing.",
+    href: "units/c2-unit11-task1-table-report-selective.html"
   }
 ];
 
