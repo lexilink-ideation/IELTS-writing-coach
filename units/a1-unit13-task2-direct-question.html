@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Unit 13 — Yes or No, One Reason | IELTS Writing Coach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <a class="top-bar-link" href="../index.html">&larr; DASHBOARD</a>
+</div>
+
+<header class="page-banner">
+  <div class="unit-header">
+    <span class="unit-pill unit-pill-level">A1</span>
+    <span class="unit-pill unit-pill-task">Task 2</span>
+  </div>
+  <h1 class="unit-page-title">Unit 13: Yes or No, One Reason</h1>
+  <p class="unit-meta">Skill focus: <strong>Task 2 — Direct Question Basics</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="card-section">
+    <h2><span class="step-num">1</span> Mini Lesson</h2>
+    <p>Some IELTS questions simply ask <strong>Yes or No</strong>. This is different from a full opinion essay — you do not need "In my opinion". Instead, answer directly with <strong>"Yes, I think..."</strong> or <strong>"No, I don't think..."</strong>, then add one reason with "because".</p>
+    <div class="pattern-box">Yes, I think ___ / No, I don't think ___ because ___.</div>
+    <p>A Direct Question answer is short and direct — one clear Yes/No sentence, not a full paragraph.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">2</span> Model Sentences</h2>
+    <p class="hint">These examples use a different topic (online classes) so you can see the pattern — then apply it to the new topic below.</p>
+    <ul class="model-sentence-list">
+      <li>Yes, I think online classes are good because students can learn from home.</li>
+      <li>No, I don't think online classes are good because students miss their friends.</li>
+    </ul>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">3</span> Guided Practice</h2>
+    <p>Fill in the gaps using the topic below (not the model sentences above):</p>
+    <div class="pattern-box">___ (Yes, I think / No, I don't think) more people should use public transport because ___.</div>
+    <p class="hint">Now write your own Yes/No answer in the writing box below.</p>
+  </section>
+
+  <section class="card-section">
+    <h2><span class="step-num">4</span> Writing Box</h2>
+    <div class="practice-prompt">Prompt: Do you think more people should use public transport instead of cars?</div>
+    <textarea id="writingBox" placeholder="Yes, I think... because... / No, I don't think... because..."></textarea>
+    <div class="writing-box-footer">
+      <span id="wordCounter">0 words</span>
+      <button class="btn btn-primary" id="checkBtn">Check</button>
+    </div>
+    <p class="hint">Tip: press Enter to check, or Shift+Enter for a new line.</p>
+  </section>
+
+  <section id="feedbackPanel" class="hidden"></section>
+
+  <section class="card-section">
+    <h2><span class="step-num">5</span> Self-Review Checklist</h2>
+    <ul class="checklist">
+      <li class="checklist-item"><input type="checkbox"><span>My sentence starts with a capital letter.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence ends with a full stop.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I answered directly with "Yes, I think" or "No, I don't think" — not "In my opinion".</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>I used "because" to give one reason.</span></li>
+      <li class="checklist-item"><input type="checkbox"><span>My sentence is about public transport.</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="../index.html">
+    <div class="logo-mark">LI</div>
+    <div class="logo-text">
+      <div class="logo-name">LEXILINK IDEATION</div>
+      <div class="logo-studio">IELTS STUDIO</div>
+    </div>
+  </a>
+  <p>IELTS Writing Coach · CEFR-guided IELTS Writing training · Built for IELTS learners</p>
+</footer>
+
+<script src="../data/units.js"></script>
+<script src="../js/app.js"></script>
+<script>
+  const unitConfig = {
+    id: "a1-unit13-task2-direct-question",
+    minWords: 10,
+    requireCapitalStart: true,
+    requireFullStop: true,
+    keywordGroups: [
+      { label: "a direct Yes/No opener (\"Yes, I think\" or \"No, I don't think\")", words: ["yes, i think", "no, i don't think", "yes i think", "no i don't think", "no, i do not think"] },
+      { label: "the word \"because\" to give a reason", words: ["because"] },
+      { label: "\"public transport\", \"bus\", or \"car\"", words: ["public transport", "bus", "buses", "trains", "cars"] }
+    ],
+    linkingWords: ["and", "but", "also"],
+    modelAnswer: "Yes, I think more people should use public transport because it reduces traffic in cities.",
+    skillConnection: "Task 2: a Direct Question prompt asking a simple Yes/No question needs a direct Yes/No answer plus one reason — not the \"In my opinion\" opener used for full opinion essays.",
+    nextChallenge: "Try adding a second reason using \"and\"."
+  };
+  document.addEventListener("DOMContentLoaded", () => IELTSFeedback.initUnitPage(unitConfig));
+</script>
+</body>
+</html>

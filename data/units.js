@@ -136,6 +136,16 @@ const IELTS_UNITS = [
     description: "Write one simple sentence naming the first stage of a short process using \"First,\".",
     href: "units/a1-unit12-task1-process-stage.html"
   },
+  {
+    id: "a1-unit13-task2-direct-question",
+    level: "A1",
+    unitNumber: 13,
+    title: "Yes or No, One Reason",
+    taskType: "Task 2",
+    skill: "Direct Question Basics",
+    description: "Answer a simple yes/no direct question with one opinion sentence plus one reason using \"because\".",
+    href: "units/a1-unit13-task2-direct-question.html"
+  },
 
   // ---------------------------- A2 ----------------------------
   {
@@ -247,6 +257,16 @@ const IELTS_UNITS = [
     skill: "Process Basics (Two Steps)",
     description: "Describe two stages of a process in order using \"First,\" and \"Then, after that,\".",
     href: "units/a2-unit11-task1-process-two-steps.html"
+  },
+  {
+    id: "a2-unit12-task2-direct-question-development",
+    level: "A2",
+    unitNumber: 12,
+    title: "Positive or Negative? One Paragraph",
+    taskType: "Task 2",
+    skill: "Direct Question (Development)",
+    description: "Answer a 'positive or negative development' direct question with a clear stance and one reason.",
+    href: "units/a2-unit12-task2-direct-question-development.html"
   },
 
   // ---------------------------- B1 ----------------------------
@@ -360,6 +380,16 @@ const IELTS_UNITS = [
     description: "Answer a 'positive or negative development' prompt in a full paragraph with a clear stance, reason, and result.",
     href: "units/b1-unit11-task2-direct-question-development.html"
   },
+  {
+    id: "b1-unit12-task1-cycle-process",
+    level: "B1",
+    unitNumber: 12,
+    title: "A Cycle in Order",
+    taskType: "Task 1",
+    skill: "Process (Cycle Type)",
+    description: "Describe a natural cycle using sequencing language, showing it returns to stage 1 and repeats.",
+    href: "units/b1-unit12-task1-cycle-process.html"
+  },
 
   // ---------------------------- B2 ----------------------------
   {
@@ -471,6 +501,16 @@ const IELTS_UNITS = [
     skill: "Cause-Solution Essay",
     description: "State the causes of a trend, then propose solutions, keeping the two clearly separate.",
     href: "units/b2-unit11-task2-cause-solution.html"
+  },
+  {
+    id: "b2-unit12-task1-table-grouping",
+    level: "B2",
+    unitNumber: 12,
+    title: "Table Report: Grouping Small Numbers",
+    taskType: "Task 1",
+    skill: "Table Selectivity",
+    description: "Group several small percentages into one summarising phrase and single out any unusually high figure.",
+    href: "units/b2-unit12-task1-table-grouping.html"
   },
 
   // ---------------------------- C1 ----------------------------
@@ -584,6 +624,16 @@ const IELTS_UNITS = [
     description: "Answer a two-question prompt — first the reasons behind a trend, then your opinion — keeping the two separate.",
     href: "units/c1-unit11-task2-direct-question-two-part.html"
   },
+  {
+    id: "c1-unit12-task1-manmade-process-passive",
+    level: "C1",
+    unitNumber: 12,
+    title: "A Man-Made Process, Passive Voice",
+    taskType: "Task 1",
+    skill: "Process (Man-Made Type)",
+    description: "Describe a manufacturing-style process using the passive voice throughout, distinguishing it from a natural cycle.",
+    href: "units/c1-unit12-task1-manmade-process-passive.html"
+  },
 
   // ---------------------------- C2 ----------------------------
   {
@@ -695,6 +745,16 @@ const IELTS_UNITS = [
     skill: "Table Report (Full, Selective)",
     description: "Write a complete table report demonstrating selective grouping and safe, reliable vocabulary rather than risky paraphrasing.",
     href: "units/c2-unit11-task1-table-report-selective.html"
+  },
+  {
+    id: "c2-unit12-task2-advantages-disadvantages-verdict",
+    level: "C2",
+    unitNumber: 12,
+    title: "Advantages, Disadvantages, and a Verdict",
+    taskType: "Task 2",
+    skill: "Full Weighing Essay",
+    description: "Present balanced advantages and disadvantages, weigh them with 'outweigh' language, and close with a clearly justified, qualified verdict.",
+    href: "units/c2-unit12-task2-advantages-disadvantages-verdict.html"
   }
 ];
 

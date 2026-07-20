@@ -1,42 +1,30 @@
 {
-  "_comment": "Curriculum roadmap for the daily 'new unit' scheduled task. Every run, the task builds ONE new unit for EACH of the 6 CEFR levels (not a rotation anymore). Each level's 'queue' is an ordered list of not-yet-built units — the task pops the first item off each level's queue, builds it, removes it from that queue, and bumps that level's nextUnitNumber. If a level's queue is empty on a given day, that level is skipped for the day (noted in the run summary) while the other levels still get built. If ALL 6 queues are empty, set _needsMoreRoadmap to true and stop. From 2026-07-11 onward, this roadmap is grounded in the site owner's own teaching decks (uploaded: Adv/Disadv, Cause & Solution, Direct Question, and Opinion essay guides for Task 2; Bar Chart, Line Graph, Pie Chart, Table, Process/Diagram, and Map decks for Task 1). It systematically walks students through her real essay taxonomy (Opinion/Agree-Disagree; Advantages & Disadvantages in its two forms — no-opinion vs 'do advantages outweigh disadvantages'; Cause-Solution in its three often-confused forms — Solution Essay, Cause-Solution Essay, Problem-Solution Essay; and Direct Question in its four forms by number of questions asked) and her real Task 1 chart taxonomy (bar, line, pie, table, process/diagram cycle vs man-made process, and map with its tense rules), each introduced at the CEFR level where its complexity fits, using her actual structural rules (intro-overview-body paragraphing, word count targets, grouping/selectivity rules for tables, tense rules for maps, pie-chart phrase bank, etc.).",
-  "_needsMoreRoadmap": false,
+  "_comment": "Curriculum roadmap for the daily 'new unit' scheduled task. Every run, the task builds ONE new unit for EACH of the 6 CEFR levels (not a rotation anymore). Each level's 'queue' is an ordered list of not-yet-built units — the task pops the first item off each level's queue, builds it, removes it from that queue, and bumps that level's nextUnitNumber. If a level's queue is empty on a given day, that level is skipped for the day (noted in the run summary) while the other levels still get built. If ALL 6 queues are empty, set _needsMoreRoadmap to true and stop. From 2026-07-11 onward, this roadmap is grounded in the site owner's own teaching decks (uploaded: Adv/Disadv, Cause & Solution, Direct Question, and Opinion essay guides for Task 2; Bar Chart, Line Graph, Pie Chart, Table, Process/Diagram, and Map decks for Task 1). It systematically walks students through her real essay taxonomy (Opinion/Agree-Disagree; Advantages & Disadvantages in its two forms — no-opinion vs 'do advantages outweigh disadvantages'; Cause-Solution in its three often-confused forms — Solution Essay, Cause-Solution Essay, Problem-Solution Essay; and Direct Question in its four forms by number of questions asked) and her real Task 1 chart taxonomy (bar, line, pie, table, process/diagram cycle vs man-made process, and map with its tense rules), each introduced at the CEFR level where its complexity fits, using her actual structural rules (intro-overview-body paragraphing, word count targets, grouping/selectivity rules for tables, tense rules for maps, pie-chart phrase bank, etc.). As of 2026-07-20, all six level queues built from this taxonomy are complete — every level's queue is now empty and the site owner should add the next batch of planned units before the next run.",
+  "_needsMoreRoadmap": true,
   "levels": {
     "A1": {
-      "nextUnitNumber": 13,
-      "queue": [
-        { "title": "Yes or No, One Reason", "taskType": "Task 2", "skill": "Direct Question Basics", "topic": "public transport", "notes": "Answer a simple yes/no direct question with one opinion sentence plus one reason, distinguishing a Direct Question response from a full opinion-essay paragraph." }
-      ]
+      "nextUnitNumber": 14,
+      "queue": []
     },
     "A2": {
-      "nextUnitNumber": 12,
-      "queue": [
-        { "title": "Positive or Negative? One Paragraph", "taskType": "Task 2", "skill": "Direct Question (Development)", "topic": "old people and technology", "notes": "Answer a 'positive or negative development' direct question (the real Direct Question Essay Type 2) with an opinion and one reason." }
-      ]
+      "nextUnitNumber": 13,
+      "queue": []
     },
     "B1": {
-      "nextUnitNumber": 12,
-      "queue": [
-        { "title": "A Cycle in Order", "taskType": "Task 1", "skill": "Process (Cycle Type)", "topic": "environment", "notes": "Describe a natural cycle (not a man-made process) using sequencing language, introducing the real distinction between the two process-diagram subtypes: cycles vs man-made processes." }
-      ]
+      "nextUnitNumber": 13,
+      "queue": []
     },
     "B2": {
-      "nextUnitNumber": 12,
-      "queue": [
-        { "title": "Table Report: Grouping Small Numbers", "taskType": "Task 1", "skill": "Table Selectivity", "topic": "studying abroad", "notes": "Practice grouping several small percentages into one summarising phrase instead of listing each one, and singling out any unusually high figure, per the real table-strategy deck." }
-      ]
+      "nextUnitNumber": 13,
+      "queue": []
     },
     "C1": {
-      "nextUnitNumber": 12,
-      "queue": [
-        { "title": "A Man-Made Process, Passive Voice", "taskType": "Task 1", "skill": "Process (Man-Made Type)", "topic": "environment", "notes": "Describe a manufacturing-style process using the passive voice throughout, distinguishing this real process subtype from the natural-cycle subtype covered at B1." }
-      ]
+      "nextUnitNumber": 13,
+      "queue": []
     },
     "C2": {
-      "nextUnitNumber": 12,
-      "queue": [
-        { "title": "Advantages, Disadvantages, and a Verdict", "taskType": "Task 2", "skill": "Full Weighing Essay", "topic": "cities and countryside", "notes": "Write a complete advantages-disadvantages paragraph that both weighs which side is stronger (Type 2) and closes with a clearly justified verdict, synthesising both real essay subtypes into one response." }
-      ]
+      "nextUnitNumber": 13,
+      "queue": []
     }
   }
 }
