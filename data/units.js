@@ -755,6 +755,16 @@ const IELTS_UNITS = [
     skill: "Full Weighing Essay",
     description: "Present balanced advantages and disadvantages, weigh them with 'outweigh' language, and close with a clearly justified, qualified verdict.",
     href: "units/c2-unit12-task2-advantages-disadvantages-verdict.html"
+  },
+  {
+    id: "c2-unit13-task2-resource-depletion",
+    level: "C2",
+    unitNumber: 13,
+    title: "Natural Resource Depletion: Full Essay Practice",
+    taskType: "Task 2",
+    skill: "Full Problem-Solution Essay",
+    description: "Study a complete model Problem-Solution essay on resource depletion, then write your own full four-paragraph response with different real-world examples.",
+    href: "units/c2-unit13-task2-resource-depletion.html"
   }
 ];
 
