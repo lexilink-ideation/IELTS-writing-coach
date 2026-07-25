@@ -765,6 +765,16 @@ const IELTS_UNITS = [
     skill: "Full Problem-Solution Essay",
     description: "Study a complete model Problem-Solution essay on resource depletion, then write your own full four-paragraph response with different real-world examples.",
     href: "units/c2-unit13-task2-resource-depletion.html"
+  },
+  {
+    id: "c2-unit14-task2-professional-pay-opinion",
+    level: "C2",
+    unitNumber: 14,
+    title: "Professional Pay vs. Sports & Entertainment — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Opinion Essay (Philosophical Reasoning)",
+    description: "Study a Band 9 model Opinion essay weighing moral desert against market logic, then write your own qualified, partial-agreement response with different real-world examples.",
+    href: "units/c2-unit14-task2-professional-pay-opinion.html"
   }
 ];
 
