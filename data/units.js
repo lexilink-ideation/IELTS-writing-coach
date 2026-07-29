@@ -775,6 +775,16 @@ const IELTS_UNITS = [
     skill: "Full Opinion Essay (Philosophical Reasoning)",
     description: "Study a Band 9 model Opinion essay weighing moral desert against market logic, then write your own qualified, partial-agreement response with different real-world examples.",
     href: "units/c2-unit14-task2-professional-pay-opinion.html"
+  },
+  {
+    id: "c2-unit15-task2-endangered-animals-opinion",
+    level: "C2",
+    unitNumber: 15,
+    title: "Protecting Only \"Useful\" Animals — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Opinion Essay (Philosophical Reasoning)",
+    description: "Study a Band 9 model Opinion essay weighing anthropocentric usefulness against intrinsic value and ecological interdependence, then write your own qualified response with different real-world examples.",
+    href: "units/c2-unit15-task2-endangered-animals-opinion.html"
   }
 ];
 
