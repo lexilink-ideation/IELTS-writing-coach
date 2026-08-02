@@ -785,6 +785,16 @@ const IELTS_UNITS = [
     skill: "Full Opinion Essay (Philosophical Reasoning)",
     description: "Study a Band 9 model Opinion essay weighing anthropocentric usefulness against intrinsic value and ecological interdependence, then write your own qualified response with different real-world examples.",
     href: "units/c2-unit15-task2-endangered-animals-opinion.html"
+  },
+  {
+    id: "c2-unit16-task2-teacher-responsibility-opinion",
+    level: "C2",
+    unitNumber: 16,
+    title: "Teachers and Students' Social Development — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Opinion Essay (Philosophical Reasoning)",
+    description: "Study a Band 9 model Opinion essay weighing the school as a socialising community against the family as the first ground of moral formation, resolved through subsidiarity, then write your own qualified response with different real-world examples.",
+    href: "units/c2-unit16-task2-teacher-responsibility-opinion.html"
   }
 ];
 
