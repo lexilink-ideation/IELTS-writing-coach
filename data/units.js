@@ -815,6 +815,16 @@ const IELTS_UNITS = [
     skill: "Full Cause & Solution Essay (Philosophical Reasoning)",
     description: "Study a Band 9 model Cause & Solution essay diagnosing a structural cause (growth over wellbeing and the tragedy of the commons) and a social cause (crowding and alienation), then matching concrete solutions justified by the greatest good, Rawls's protection of the worst-off, and a cultural shift in values — then write your own response with different real-world examples.",
     href: "units/c2-unit18-task2-cities-quality-of-life-cause-solution.html"
+  },
+  {
+    id: "c2-unit19-task2-social-media-news-opinion",
+    level: "C2",
+    unitNumber: 19,
+    title: "Social Media News and the Focus on Problems — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Opinion Essay (Philosophical Reasoning)",
+    description: "Study a Band 9 model Opinion (Agree/Disagree) essay on why social media news skews toward problems and emergencies — the negativity bias and the attention economy, the 'mean world' cost of that skew, and the watchdog value of covering problems — landing on a qualified, largely-agree position, then write your own response with different real-world examples.",
+    href: "units/c2-unit19-task2-social-media-news-opinion.html"
   }
 ];
 
