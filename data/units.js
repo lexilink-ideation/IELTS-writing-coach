@@ -825,6 +825,16 @@ const IELTS_UNITS = [
     skill: "Full Opinion Essay (Philosophical Reasoning)",
     description: "Study a Band 9 model Opinion (Agree/Disagree) essay on why social media news skews toward problems and emergencies — the negativity bias and the attention economy, the 'mean world' cost of that skew, and the watchdog value of covering problems — landing on a qualified, largely-agree position, then write your own response with different real-world examples.",
     href: "units/c2-unit19-task2-social-media-news-opinion.html"
+  },
+  {
+    id: "c2-unit20-task2-older-workers-development",
+    level: "C2",
+    unitNumber: 20,
+    title: "Employers Hiring Older Workers — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Positive/Negative Development Essay (Philosophical Reasoning)",
+    description: "Study a Band 9 model Positive/Negative Development essay that interrogates the word \"willing\" — weighing experience and the miscounted dependant against commodification and the leisure tradition, resolved by the voluntariness test (chosen work vs forced work) — then write your own qualified response with different real-world examples.",
+    href: "units/c2-unit20-task2-older-workers-development.html"
   }
 ];
 
