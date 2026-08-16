@@ -835,6 +835,16 @@ const IELTS_UNITS = [
     skill: "Full Positive/Negative Development Essay (Philosophical Reasoning)",
     description: "Study a Band 9 model Positive/Negative Development essay that interrogates the word \"willing\" — weighing experience and the miscounted dependant against commodification and the leisure tradition, resolved by the voluntariness test (chosen work vs forced work) — then write your own qualified response with different real-world examples.",
     href: "units/c2-unit20-task2-older-workers-development.html"
+  },
+  {
+    id: "c2-unit21-task2-charity-discussion",
+    level: "C2",
+    unitNumber: 21,
+    title: "Charities — Help Anywhere, or Focus at Home? — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Discussion Essay (Discuss Both Views + Opinion, Philosophical Reasoning)",
+    description: "Study a Band 9 model Discussion essay that develops both views fairly — impartial need (distance is morally arbitrary; money goes further) versus special obligation (duties to fellow citizens; local accountability) — before resolving them with a division of moral labour, then write your own response with different real-world examples.",
+    href: "units/c2-unit21-task2-charity-discussion.html"
   }
 ];
 
