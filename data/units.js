@@ -845,6 +845,16 @@ const IELTS_UNITS = [
     skill: "Full Discussion Essay (Discuss Both Views + Opinion, Philosophical Reasoning)",
     description: "Study a Band 9 model Discussion essay that develops both views fairly — impartial need (distance is morally arbitrary; money goes further) versus special obligation (duties to fellow citizens; local accountability) — before resolving them with a division of moral labour, then write your own response with different real-world examples.",
     href: "units/c2-unit21-task2-charity-discussion.html"
+  },
+  {
+    id: "c2-unit22-task2-shops-similar-discussion",
+    level: "C2",
+    unitNumber: 22,
+    title: "Are Shops and Products Becoming Too Similar? — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Discussion Essay (Discuss Both Views + Opinion, Philosophical Reasoning)",
+    description: "Study a Band 9 model Discussion essay that develops both views fairly — sameness as reliability (a brand as a portable promise, and the quietly egalitarian spread of dependable quality) versus sameness as the emptying of places (lost distinctiveness, non-places, and choice narrower than it appears) — before resolving them with the function-versus-meaning principle, then write your own response with different real-world examples.",
+    href: "units/c2-unit22-task2-shops-similar-discussion.html"
   }
 ];
 
