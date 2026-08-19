@@ -855,6 +855,16 @@ const IELTS_UNITS = [
     skill: "Full Discussion Essay (Discuss Both Views + Opinion, Philosophical Reasoning)",
     description: "Study a Band 9 model Discussion essay that develops both views fairly — sameness as reliability (a brand as a portable promise, and the quietly egalitarian spread of dependable quality) versus sameness as the emptying of places (lost distinctiveness, non-places, and choice narrower than it appears) — before resolving them with the function-versus-meaning principle, then write your own response with different real-world examples.",
     href: "units/c2-unit22-task2-shops-similar-discussion.html"
+  },
+  {
+    id: "c2-unit23-task2-climate-business-discussion",
+    level: "C2",
+    unitNumber: 23,
+    title: "Does Climate Change Damage Business or Create Opportunity? — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Discussion Essay (Discuss Both Views + Opinion, Philosophical Reasoning)",
+    description: "Study a Band 9 model Discussion essay that develops both views fairly — climate change as the destruction of value and, more seriously, the loss of any ability to price risk, versus disruption as the way markets create, since a constraint is also an instruction — before resolving them by separating value genuinely created from value merely defended or transferred, then write your own response with different real-world examples.",
+    href: "units/c2-unit23-task2-climate-business-discussion.html"
   }
 ];
 
