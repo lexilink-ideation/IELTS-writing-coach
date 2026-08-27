@@ -865,6 +865,16 @@ const IELTS_UNITS = [
     skill: "Full Discussion Essay (Discuss Both Views + Opinion, Philosophical Reasoning)",
     description: "Study a Band 9 model Discussion essay that develops both views fairly — climate change as the destruction of value and, more seriously, the loss of any ability to price risk, versus disruption as the way markets create, since a constraint is also an instruction — before resolving them by separating value genuinely created from value merely defended or transferred, then write your own response with different real-world examples.",
     href: "units/c2-unit23-task2-climate-business-discussion.html"
+  },
+  {
+    id: "c2-unit24-task2-parental-training-opinion",
+    level: "C2",
+    unitNumber: 24,
+    title: "Should People Be Required to Train Before Becoming Parents? — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Opinion Essay (Agree / Disagree, Defined Partial Agreement, Philosophical Reasoning)",
+    description: "Study a Band 9 model Opinion essay that turns a vague \"to what extent\" prompt into a defined position — conceding the adoption asymmetry (societies already assess parental competence whenever a child arrives by any route other than birth) before defeating the licensing version with the enforcement problem (a gate must do something with those who fail it) and resolving the question by separating provision from permission, then write your own response with different real-world examples.",
+    href: "units/c2-unit24-task2-parental-training-opinion.html"
   }
 ];
 
