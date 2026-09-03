@@ -875,6 +875,16 @@ const IELTS_UNITS = [
     skill: "Full Opinion Essay (Agree / Disagree, Defined Partial Agreement, Philosophical Reasoning)",
     description: "Study a Band 9 model Opinion essay that turns a vague \"to what extent\" prompt into a defined position — conceding the adoption asymmetry (societies already assess parental competence whenever a child arrives by any route other than birth) before defeating the licensing version with the enforcement problem (a gate must do something with those who fail it) and resolving the question by separating provision from permission, then write your own response with different real-world examples.",
     href: "units/c2-unit24-task2-parental-training-opinion.html"
+  },
+  {
+    id: "c2-unit25-task2-driving-age-opinion",
+    level: "C2",
+    unitNumber: 25,
+    title: "Is Raising the Driving Age the Best Way to Improve Road Safety? — A Philosophical Approach",
+    taskType: "Task 2",
+    skill: "Full Opinion Essay (Agree / Disagree, Attacking a Superlative, Philosophical Reasoning)",
+    description: "Study a Band 9 model Opinion essay that attacks the superlative in the prompt — conceding the case for a minimum driving age (the harm principle) while rejecting that raising it is the best route to safety, via the novice effect and the single-cause fallacy, and resolving the question with a systems view (\"one layer, not the lever\") — then write your own response with different real-world examples.",
+    href: "units/c2-unit25-task2-driving-age-opinion.html"
   }
 ];
 
